@@ -336,30 +336,207 @@
 // getSubscriptionPrice("starter")
 
 
-function checkPassword(password) {
-    const ADMIN_PASSWORD = "jqueryismyjam";
-    let message;
-    // Change code below this line
+// function checkPassword(password) {
+//     const ADMIN_PASSWORD = "jqueryismyjam";
+//     let message;
+//     // Change code below this line
   
-    switch (password) {
-      case null:
-        message = "Canceled by user!";
-        break;
+//     switch (password) {
+//       case null:
+//         message = "Canceled by user!";
+//         break;
         
-      case ADMIN_PASSWORD:
-        message = "Welcome!";
-        break;
+//       case ADMIN_PASSWORD:
+//         message = "Welcome!";
+//         break;
         
-      default:
-        message = "Access denied, wrong password!";
-    }
+//       default:
+//         message = "Access denied, wrong password!";
+//     }
 
-    console.log(message);
-    // Change code above this line
-    return message;
-  }
+//     console.log(message);
+//     // Change code above this line
+//     return message;
+//   }
 
-checkPassword("mangohackzor")
-checkPassword(null)
-checkPassword("polyhax")
-checkPassword("jqueryismyjam")
+// checkPassword("mangohackzor")
+// checkPassword(null)
+// checkPassword("polyhax")
+// checkPassword("jqueryismyjam")
+
+// function getShippingCost(country) {
+//   let message;
+//   // Change code below this line
+  
+//   let price;
+
+//   switch (country) {
+//     case "China":
+//       price = 100;
+//       message = (`Shipping to ${country} will cost ${price} credits`);
+//       break;
+      
+//     case "Chile":
+//       price = 250;
+//       message = (`Shipping to ${country} will cost ${price} credits`);
+//       break;
+      
+//     case "Australia":
+//       price = 170;
+//       message = (`Shipping to ${country} will cost ${price} credits`);
+//       break;
+      
+//     case "Jamaica":
+//       price = 120;
+//       message = (`Shipping to ${country} will cost ${price} credits`);
+//       break;
+
+//     default:
+//       message = ("Sorry, there is no delivery to your country");
+//   }
+  
+//  console.log(message);
+//   return message;
+// }
+
+// getShippingCost("Australia")
+// getShippingCost("Germany")
+// getShippingCost("China")
+// getShippingCost("Chile")
+// getShippingCost("Jamaica")
+// getShippingCost("Sweden")
+
+
+
+// function getNameLength(name) {
+//   const message = `Name ${name} is ${name.length} characters long`; // Change this line
+// console.log(message);
+//   return message;
+// }
+
+// getNameLength("Poly")
+// getNameLength("Harambe")
+// getNameLength("Billy")
+// getNameLength("Joe")
+
+
+// const courseTopic = "JavaScript essentials";
+// // Change code below this line
+
+// const courseTopicLength = courseTopic.length;
+// const firstElement = courseTopic[0];
+// const lastElement = courseTopic[courseTopic.length - 1];
+
+// console.log(courseTopicLength);
+// console.log(firstElement);
+// console.log(lastElement);
+// // Change code above this line
+
+
+// function getSubstring(string, length) {
+//   const substring = string.slice(string, length) ; // Change this line
+
+//   console.log(substring);
+//   return substring;
+// }
+
+// getSubstring("Hello world", 3)
+// getSubstring("Hello world", 6)
+// getSubstring("Hello world", 8)
+// getSubstring("Hello world", 11)
+// getSubstring("Hello world", 0)
+
+
+
+// function formatMessage(message, maxLength) {
+//   let result;
+//   // Change code below this line
+
+//   // result = message.maxLength <= maxLength ? message.replace(message.slice(maxLength), "...") : message;
+//   result = message.length <= maxLength ? message : message.slice(0, maxLength) + "...";
+
+// if (message.length <= maxLength) {
+//   result = message;
+// } else {
+//   result = message.slice(0, maxLength) + "...";
+//   // result = message + "...";
+// }
+
+
+  // result = message.length >= maxLength ? message.replace(message[message.length - 1], "...") : result;
+
+    // console.log(message.length);
+    // console.log(maxLength);
+//     // console.log(message);
+//     console.log(result);
+  
+//   /// Change code above this line
+//   return result;
+// }
+
+
+// formatMessage("Curabitur ligula sapien", 16)
+// formatMessage("Curabitur ligula sapien", 23)
+// formatMessage("Vestibulum facilisis purus nec", 20)
+// formatMessage("Vestibulum facilisis purus nec", 30)
+// formatMessage("Nunc sed turpis a felis in nunc fringilla", 15)
+// formatMessage("Nunc sed turpis a felis in nunc fringilla", 41)
+
+// let result;
+// let message = "Curabitur ligula sapien";
+// const maxLength = 16;
+
+// // result = message.length >= maxLength;
+// result = message.replace(message.slice(maxLength), "...");
+// // result = message.replace(message, "...");
+
+
+// // console.log(message.length);
+// // console.log(maxLength);
+// // console.log(message[maxLength - 1]);
+// console.log(result);
+
+
+// function normalizeInput(input) {
+//   const normalizedInput = input.toLowerCase(); // Change this line
+// console.log(normalizedInput);
+//   return normalizedInput;
+// }
+
+// normalizeInput("Hello world")
+// normalizeInput("This ISN'T SpaM")
+// normalizeInput("Big SALE")
+
+
+// function checkForName(fullName, name) {
+//   const result = fullName.includes(name); // Change this line
+//   console.log(result); 
+//   return result;
+//  }
+
+// checkForName("Egor Kolbasov", "Egor")
+// checkForName("Egor Kolbasov", "egor")
+// checkForName("Egor Kolbasov", "egOr")
+// checkForName("Egor Kolbasov", "Zhenya")
+// checkForName("Vadim Nekrasov", "Vadim")
+// checkForName("Vadim Nekrasov", "vadim")
+// checkForName("Vadim Nekrasov", "Dima")
+
+
+// function checkForSpam(message) {
+//   let result;
+//   // Change code below this line
+//   // message = message.toLowerCase();
+//   result = message.toLowerCase().includes("spam") || message.toLowerCase().includes("sale");
+
+//   console.log(result);
+//   // Change code above this line
+//   return result;
+// }
+
+// checkForSpam("Latest technology news")
+// checkForSpam("JavaScript weekly newsletter")
+// checkForSpam("Get best sale offers now!")
+// checkForSpam("Amazing SalE, only tonight!")
+// checkForSpam("Get rid of sPaM emails. Our book in on sale!")
+// checkForSpam("[SPAM] How to earn fast money?")
