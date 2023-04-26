@@ -540,3 +540,39 @@
 // checkForSpam("Amazing SalE, only tonight!")
 // checkForSpam("Get rid of sPaM emails. Our book in on sale!")
 // checkForSpam("[SPAM] How to earn fast money?")
+
+
+// function getExtremeElements(array) {
+//   // Change code below this line
+
+//  const result = [array[0], array[array.length -1]];
+
+
+//  console.log(result);
+//  return result;
+
+//   // Change code above this line
+// }
+
+// getExtremeElements([1, 2, 3, 4, 5])
+// getExtremeElements(["Earth", "Mars", "Venus"])
+// getExtremeElements(["apple", "peach", "pear", "banana"])
+
+
+
+function getExtremeElements(array) {
+  // Change code below this line
+
+  const lastElementIndex = array.length - 1;
+  const result = [array[0], array[lastElementIndex]];
+
+ 
+ console.log(result);
+ return result;
+
+  // Change code above this line
+}
+
+getExtremeElements([1, 2, 3, 4, 5])
+getExtremeElements(["Earth", "Mars", "Venus"])
+getExtremeElements(["apple", "peach", "pear", "banana"])
