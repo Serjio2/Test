@@ -38,7 +38,7 @@
 
 // console.log(Number.parseInt("50Spx"));
 // console.log(Number.parseInt("12qwe74"));
-// console.log(Number.parseInt("12.46qwe79")); 
+// console.log(Number.parseInt("12.46qwe79"));
 // console.log(Number.parseInt("qweqwe"));
 
 // console.log(Number.parseFloat("5px")); // 5
@@ -83,7 +83,7 @@
 // console.log(productName.slice(0, productName.length)); // "Repair droid"
 // console.log(productName.slice(7, productName.length)); // "droid"
 
-// 
+//
 // function isAdult(age) {
 //     // Change code below this line
 //     const passed = age >= 18;
@@ -98,7 +98,7 @@
 
 // function checkAge(age) {
 //     let message;
-  
+
 //     if (age >= 18) { // Change this line
 //       message = 'You are an adult';
 //     } else {
@@ -107,11 +107,10 @@
 //   console.log(message);
 //     return message;
 //   }
-// checkAge(20) 
+// checkAge(20)
 // checkAge(8)
 // checkAge(14)
-// checkAge(38) 
-  
+// checkAge(38)
 
 // function checkStorage(available, ordered) {
 //     let message;
@@ -135,7 +134,7 @@
 //     let message;
 //     // Change code below this line
 //     const totalPrice = pricePerDroid * orderedQuantity;
-  
+
 //       if (totalPrice > customerCredits) {
 //         message = "Insufficient funds!";
 //         } else {
@@ -151,12 +150,11 @@
 // makeTransaction(5000, 10, 8000)
 // makeTransaction(2000, 8, 10000)
 // makeTransaction(500, 10, 5000)
-  
 
 // function checkPassword(password) {
 //     const ADMIN_PASSWORD = 'jqueryismyjam';
 //     let message;
-  
+
 //     if (password === null) { // Change this line
 //       message =  'Canceled by user!';
 //     } else if (password === ADMIN_PASSWORD) { // Change this line
@@ -172,7 +170,6 @@
 // checkPassword(null)
 // checkPassword("polyhax")
 // checkPassword("jqueryismyjam")
-
 
 // function checkStorage(available, ordered) {
 //     let message;
@@ -195,8 +192,7 @@
 // checkStorage(70, 0)
 // checkStorage(200, 20)
 // checkStorage(200, 250)
-// checkStorage(150, 0) 
-
+// checkStorage(150, 0)
 
 // console.log(true && false); // false
 // console.log(false && true); // false
@@ -206,7 +202,6 @@
 // console.log(false && 3); // false
 // console.log(3 && true); // true
 // console.log(true && 3); // 3
-
 
 // function isNumberInRange(start, end, number) {
 //     const isInRange = number >= start && number <= end ; // Change this line
@@ -218,7 +213,6 @@
 // isNumberInRange(10, 30, 5)
 // isNumberInRange(20, 50, 24)
 // isNumberInRange(20, 50, 51)
-
 
 // console.log(true || false); // true
 // console.log(false || true); // true
@@ -240,7 +234,6 @@
 // checkIfCanAccessContent("vip")
 // checkIfCanAccessContent("free")
 
-
 // function isNumberNotInRange(start, end, number) {
 //     const isInRange = number >= start && number <= end;
 //     const isNotInRange = !isInRange; // Change this line
@@ -253,7 +246,6 @@
 // isNumberNotInRange(20, 50, 24)
 // isNumberNotInRange(20, 50, 76)
 
-
 // function getDiscount(totalSpent) {
 //     const BASE_DISCOUNT = 0;
 //     const BRONZE_DISCOUNT = 0.02;
@@ -261,19 +253,18 @@
 //     const GOLD_DISCOUNT = 0.1;
 //     let discount;
 //     // Change code below this line
-    
+
 //     if (totalSpent >= 50000) {
 //         discount = GOLD_DISCOUNT;
-//     } else 
+//     } else
 //     if (totalSpent >= 20000 && totalSpent < 50000) {
 //         discount = SILVER_DISCOUNT;
-//     } else 
+//     } else
 //     if (totalSpent >= 5000 && totalSpent < 20000) {
 //         discount = BRONZE_DISCOUNT;
 //     } else {
 //         discount = BASE_DISCOUNT;
 //     }
-
 
 //     console.log(discount);
 //     // Change code above this line
@@ -288,14 +279,12 @@
 // getDiscount(20000)
 // getDiscount(50000)
 
-
-
 // function checkStorage(available, ordered) {
 //     let message;
 //     // Change code below this line
-  
+
 //     message = ordered > available ? "Not enough goods in stock!" : "The order is accepted, our manager will contact you"
-    
+
 //   console.log(message);
 //     // Change code above this line
 //     return message;
@@ -307,21 +296,19 @@
 // checkStorage(200, 150)
 // checkStorage(150, 180)
 
-
-
 // function getSubscriptionPrice(type) {
 //     let price;
 //     // Change code below this line
-  
+
 //    switch (type) { // Change this line
 //       case "starter": // Change this line
 //         price = 0; // Change this line
 //         break;
-  
+
 //       case "professional": // Change this line
 //         price = 20; // Change this line
 //         break;
-  
+
 //       case "organization": // Change this line
 //         price = 50; // Change this line
 //         break;
@@ -331,25 +318,24 @@
 //     return price;
 //   }
 
-// getSubscriptionPrice("professional") 
+// getSubscriptionPrice("professional")
 // getSubscriptionPrice("organization")
 // getSubscriptionPrice("starter")
-
 
 // function checkPassword(password) {
 //     const ADMIN_PASSWORD = "jqueryismyjam";
 //     let message;
 //     // Change code below this line
-  
+
 //     switch (password) {
 //       case null:
 //         message = "Canceled by user!";
 //         break;
-        
+
 //       case ADMIN_PASSWORD:
 //         message = "Welcome!";
 //         break;
-        
+
 //       default:
 //         message = "Access denied, wrong password!";
 //     }
@@ -367,7 +353,7 @@
 // function getShippingCost(country) {
 //   let message;
 //   // Change code below this line
-  
+
 //   let price;
 
 //   switch (country) {
@@ -375,17 +361,17 @@
 //       price = 100;
 //       message = (`Shipping to ${country} will cost ${price} credits`);
 //       break;
-      
+
 //     case "Chile":
 //       price = 250;
 //       message = (`Shipping to ${country} will cost ${price} credits`);
 //       break;
-      
+
 //     case "Australia":
 //       price = 170;
 //       message = (`Shipping to ${country} will cost ${price} credits`);
 //       break;
-      
+
 //     case "Jamaica":
 //       price = 120;
 //       message = (`Shipping to ${country} will cost ${price} credits`);
@@ -394,7 +380,7 @@
 //     default:
 //       message = ("Sorry, there is no delivery to your country");
 //   }
-  
+
 //  console.log(message);
 //   return message;
 // }
@@ -406,8 +392,6 @@
 // getShippingCost("Jamaica")
 // getShippingCost("Sweden")
 
-
-
 // function getNameLength(name) {
 //   const message = `Name ${name} is ${name.length} characters long`; // Change this line
 // console.log(message);
@@ -418,7 +402,6 @@
 // getNameLength("Harambe")
 // getNameLength("Billy")
 // getNameLength("Joe")
-
 
 // const courseTopic = "JavaScript essentials";
 // // Change code below this line
@@ -432,7 +415,6 @@
 // console.log(lastElement);
 // // Change code above this line
 
-
 // function getSubstring(string, length) {
 //   const substring = string.slice(string, length) ; // Change this line
 
@@ -445,8 +427,6 @@
 // getSubstring("Hello world", 8)
 // getSubstring("Hello world", 11)
 // getSubstring("Hello world", 0)
-
-
 
 // function formatMessage(message, maxLength) {
 //   let result;
@@ -462,18 +442,16 @@
 //   // result = message + "...";
 // }
 
+// result = message.length >= maxLength ? message.replace(message[message.length - 1], "...") : result;
 
-  // result = message.length >= maxLength ? message.replace(message[message.length - 1], "...") : result;
-
-    // console.log(message.length);
-    // console.log(maxLength);
+// console.log(message.length);
+// console.log(maxLength);
 //     // console.log(message);
 //     console.log(result);
-  
+
 //   /// Change code above this line
 //   return result;
 // }
-
 
 // formatMessage("Curabitur ligula sapien", 16)
 // formatMessage("Curabitur ligula sapien", 23)
@@ -490,12 +468,10 @@
 // result = message.replace(message.slice(maxLength), "...");
 // // result = message.replace(message, "...");
 
-
 // // console.log(message.length);
 // // console.log(maxLength);
 // // console.log(message[maxLength - 1]);
 // console.log(result);
-
 
 // function normalizeInput(input) {
 //   const normalizedInput = input.toLowerCase(); // Change this line
@@ -507,10 +483,9 @@
 // normalizeInput("This ISN'T SpaM")
 // normalizeInput("Big SALE")
 
-
 // function checkForName(fullName, name) {
 //   const result = fullName.includes(name); // Change this line
-//   console.log(result); 
+//   console.log(result);
 //   return result;
 //  }
 
@@ -521,7 +496,6 @@
 // checkForName("Vadim Nekrasov", "Vadim")
 // checkForName("Vadim Nekrasov", "vadim")
 // checkForName("Vadim Nekrasov", "Dima")
-
 
 // function checkForSpam(message) {
 //   let result;
@@ -541,12 +515,10 @@
 // checkForSpam("Get rid of sPaM emails. Our book in on sale!")
 // checkForSpam("[SPAM] How to earn fast money?")
 
-
 // function getExtremeElements(array) {
 //   // Change code below this line
 
 //  const result = [array[0], array[array.length -1]];
-
 
 //  console.log(result);
 //  return result;
@@ -558,21 +530,128 @@
 // getExtremeElements(["Earth", "Mars", "Venus"])
 // getExtremeElements(["apple", "peach", "pear", "banana"])
 
+// function getExtremeElements(array) {
+//   // Change code below this line
+
+//   const lastElementIndex = array.length - 1;
+//   const result = [array[0], array[lastElementIndex]];
+
+//  console.log(result);
+//  return result;
+
+//   // Change code above this line
+// }
+
+// getExtremeElements([1, 2, 3, 4, 5])
+// getExtremeElements(["Earth", "Mars", "Venus"])
+// getExtremeElements(["apple", "peach", "pear", "banana"])
+
+// function splitMessage(message, delimiter) {
+//   let words;
+
+//   words = message.split(delimiter);
+//   console.log(words);
+//   return words;
+// }
+
+// splitMessage('Mango hurries to the train', ' ');
+// splitMessage('Mango', '');
+// splitMessage('best_for_week', '_');
 
 
-function getExtremeElements(array) {
+// function calculateEngravingPrice(message, pricePerWord) {
+//   // Change code below this line
+
+//   const result = message.split(" ").length * pricePerWord;
+
+
+//   console.log(result);
+//   return result;
+//   // Change code above this line
+// }
+
+// calculateEngravingPrice("JavaScript is in my blood", 10)
+// calculateEngravingPrice("JavaScript is in my blood", 20)
+// calculateEngravingPrice("Web-development is creative work", 40)
+// calculateEngravingPrice("Web-development is creative work", 20)
+
+
+// function makeStringFromArray(array, delimiter) {
+//   let string;
+//   // Change code below this line
+
+//   string = array.join(delimiter);
+//   console.log(string);
+//   // Change code above this line
+//   return string;
+// }
+
+// makeStringFromArray(["Mango", "hurries", "to", "the", "train"], " ")
+// makeStringFromArray(["M", "a", "n", "g", "o"], "")
+// makeStringFromArray(["top", "picks", "for", "you"], "_")
+
+
+// function slugify(title) {
+//   // Change code below this line
+
+//     const titleSlug = title.split(" ").join("-").toLowerCase();
+
+
+//   console.log(titleSlug);
+//   return titleSlug;
+//   // Change code above this line
+// }
+
+// slugify("Arrays for begginers")
+// slugify("English for developer")
+// slugify("Ten secrets of JavaScript")
+// slugify("How to become a JUNIOR developer in TWO WEEKS")
+
+
+
+// let arr = [];
+
+// console.log(fillArray(2, 10));
+
+// function fillArray(min, max) {
+//   for (let i = min; i <= max; i += 2) {
+//     return arr.push(i);
+//   }
+// }
+
+
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0 ,2);
+// const nonExtremeEls = fruits.slice(1, 4);
+// const lastThreeEls = fruits.slice(-3);
+
+// console.log(firstTwoEls);
+// console.log(nonExtremeEls);
+// console.log(lastThreeEls);
+
+
+// const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+
+// const allClients = oldClients.concat(newClients); // Change this line
+
+// console.log(allClients);
+
+function makeArray(firstArray, secondArray, maxLength) {
   // Change code below this line
 
-  const lastElementIndex = array.length - 1;
-  const result = [array[0], array[lastElementIndex]];
+    const unitedArray = firstArray.concat(secondArray).slice(0, maxLength);
 
- 
- console.log(result);
- return result;
+    console.log(unitedArray);
 
   // Change code above this line
 }
 
-getExtremeElements([1, 2, 3, 4, 5])
-getExtremeElements(["Earth", "Mars", "Venus"])
-getExtremeElements(["apple", "peach", "pear", "banana"])
+makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3)
+makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4)
+makeArray(["Mango"], ["Ajax", "Chelsea", "Poly", "Houston"], 3)
+makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 2)
+makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4)
+makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0)
