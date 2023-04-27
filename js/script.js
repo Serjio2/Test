@@ -639,19 +639,97 @@
 
 // console.log(allClients);
 
-function makeArray(firstArray, secondArray, maxLength) {
-  // Change code below this line
+// function makeArray(firstArray, secondArray, maxLength) {
+//   // Change code below this line
 
-    const unitedArray = firstArray.concat(secondArray).slice(0, maxLength);
+//     const unitedArray = firstArray.concat(secondArray).slice(0, maxLength);
 
-    console.log(unitedArray);
+//     console.log(unitedArray);
 
-  // Change code above this line
-}
+//   // Change code above this line
+// }
 
-makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3)
-makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4)
-makeArray(["Mango"], ["Ajax", "Chelsea", "Poly", "Houston"], 3)
-makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 2)
-makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4)
-makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0)
+// makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3)
+// makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4)
+// makeArray(["Mango"], ["Ajax", "Chelsea", "Poly", "Houston"], 3)
+// makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 2)
+// makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4)
+// makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0)
+
+
+// const start = 3;
+// const end = 7;
+
+// for (let i = start; i <= end; i += 1) { // Change this line
+//   console.log(i);
+// }
+
+// function calculateTotal(number) {
+//   // Change code below this line
+ 
+//   let sum = 0;
+
+//   for (let i = 1; i <= number; i += 1) {
+//     sum += i;
+//     // console.log(sum);
+//   }
+
+//   console.log(sum);
+//   return sum;
+  
+//    // Change code above this line
+//  }
+
+// calculateTotal(1)
+// calculateTotal(3)
+// calculateTotal(7)
+// calculateTotal(18)
+// calculateTotal(24)
+
+
+// const fruits = ['apple', 'plum', 'pear', 'orange'];
+
+// for (let i = 0; i < fruits.length; i += 1) { // Change this line
+//   const fruit = fruits[i]; // Change this line
+//   console.log(fruit);
+// }
+
+
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+//     for (let i = 0; i < order.length; i += 1) {
+//       total += order[i];
+//     }
+//   // Change code above this line
+//   console.log(total);
+//   return total;
+// }
+
+// calculateTotalPrice([12, 85, 37, 4])
+// calculateTotalPrice([164, 48, 291])
+// calculateTotalPrice([412, 371, 94, 63, 176])
+
+
+// function findLongestWord(string) {
+//   // Change code below this line
+
+//     const splitString = string.split(" ");
+
+//     let longestWord = " ";
+
+//     for (let i = 0; i < splitString.length; i += 1) {
+//         if (longestWord.length < splitString[i].length) {
+//           longestWord = splitString[i];
+//         }
+//             // console.log(i);
+//     }
+//     // console.log(splitString);
+//     console.log(longestWord);
+//     return longestWord;
+//   // Change code above this line
+// }
+
+// findLongestWord("The quick brown fox jumped over the lazy dog")
+// findLongestWord("Google do a roll")
+// findLongestWord("May the force be with you")
