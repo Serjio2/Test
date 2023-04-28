@@ -733,3 +733,202 @@
 // findLongestWord("The quick brown fox jumped over the lazy dog")
 // findLongestWord("Google do a roll")
 // findLongestWord("May the force be with you")
+
+// function createArrayOfNumbers(min, max) {
+//     const numbers = [];
+//     // Change code below this line
+
+//     for (let i = min; i <= max; i += 1) {
+//         numbers.push(i);
+//         // console.log(numbers);
+//     }
+//     console.log(numbers);
+//     // Change code above this line
+//     return numbers;
+//   }
+
+// createArrayOfNumbers(1, 3)
+// createArrayOfNumbers(14, 17)
+// createArrayOfNumbers(29, 34)
+  
+
+// function filterArray(numbers, value) {
+//     // Change code below this line
+//     let filterNumbers = [];
+
+//     for (let i = 0; i < numbers.length; i += 1) {
+//         if (numbers[i] > value) {
+//             filterNumbers.push(numbers[i]);
+//             // console.log(filterNumbers);
+//         }
+//     }
+//     console.log(filterNumbers);
+//     return filterNumbers;
+ 
+//    // Change code above this line
+//  }
+
+// filterArray([1, 2, 3, 4, 5], 3)
+// filterArray([1, 2, 3, 4, 5], 4)
+// filterArray([1, 2, 3, 4, 5], 5)
+// filterArray([12, 24, 8, 41, 76], 38)
+// filterArray([12, 24, 8, 41, 76], 20)
+
+
+
+// function checkFruit(fruit) {
+//     const fruits = ["apple", "plum", "pear", "orange"];
+  
+//     console.log(fruits.includes(fruit)); // Change this line
+//   }
+
+// checkFruit("plum")
+// checkFruit("mandarin")
+// checkFruit("pear")
+// checkFruit("Pear")
+// checkFruit("apple")
+
+
+// function getCommonElements(array1, array2) {
+//     // Change code below this line
+//     const newArray = [];
+    
+//     for (let i = 0; i <= array2.length; i += 1) {
+//         if (array2.includes(array1[i])) {
+//              newArray.push(array1[i]);
+//         }
+//     }
+// //   console.log(newArray);
+//   return newArray;
+  
+//    // Change code above this line
+//   }
+
+// getCommonElements([1, 2, 3], [2, 4])
+// getCommonElements([1, 2, 3], [2, 1, 17, 19])
+// getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27])
+// getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40])
+// getCommonElements([1, 2, 3], [10, 20, 30])
+
+
+// function calculateTotalPrice(order) {
+//     let total = 0;
+//     // Change code below this line
+  
+//     for (const number of order) {
+//       total += number;
+//     }
+
+//   console.log(total);
+//     // Change code above this line
+//     return total;
+//   }
+
+// calculateTotalPrice([12, 85, 37, 4])
+// calculateTotalPrice([164, 48, 291])
+// calculateTotalPrice([412, 371, 94, 63, 176])
+// calculateTotalPrice([])
+
+
+
+// function filterArray(numbers, value) {
+//     // Change code below this line
+//     const filteredNumbers = [];
+  
+//     for (const number of numbers) {
+//         if (number > value) {
+//         filteredNumbers.push(number);
+//       }
+//     }
+//   console.log(filteredNumbers);
+//     return filteredNumbers;
+//     // Change code above this line
+//   }
+
+// filterArray([1, 2, 3, 4, 5], 3)
+// filterArray([1, 2, 3, 4, 5], 4)
+// filterArray([1, 2, 3, 4, 5], 5)
+// filterArray([12, 24, 8, 41, 76], 38)
+// filterArray([12, 24, 8, 41, 76], 20)
+  
+
+// function getEvenNumbers(start, end) {
+//     // Change code below this line
+//         const pairNumbers = [];
+
+//         for (let i = start; i <= end; i += 1) {
+//             if ( i % 2 === 0) {
+//                 pairNumbers.push(i);
+//             }
+//         }
+ 
+//         console.log(pairNumbers);
+//         return pairNumbers;
+//      // Change code above this line
+//    }
+
+// getEvenNumbers(2, 5)
+// getEvenNumbers(3, 11)
+// getEvenNumbers(6, 12)
+// getEvenNumbers(8, 8)
+// getEvenNumbers(7, 7)
+
+
+
+// const start = 6;
+// const end = 27;
+// let number;
+
+// for (let i = start; i < end; i += 1) {
+//   if (i % 5 === 0) {
+//     number = i;
+//     break;
+//   }
+// }
+// console.log(number);
+
+
+// function findNumber(start, end, divisor) {
+//     // Change code below this line
+//     // let number;
+  
+//     for (let i = start; i < end; i += 1) {
+//       if (i % divisor === 0) {
+//         return console.log(i);
+//         // number = i;
+//         // break;
+//       }
+//     }
+//     // return number;
+//     // Change code above this line
+//   }
+
+// findNumber(2, 6, 5)
+// findNumber(8, 17, 3)
+// findNumber(6, 9, 4)
+// findNumber(16, 35, 7)
+
+
+function includes(array, value) {
+    // Change code below this line
+  for (let i = 0; i < array.length; i += 1) {
+    if (array[i] === value) {
+        return Boolean(i);
+    } else {
+        return Boolean(!i);
+    }
+        
+  }
+
+
+    // Change code above this line
+  }
+
+
+console.log(includes([1, 2, 3, 4, 5], 3))
+console.log(includes([1, 2, 3, 4, 5], 17))
+console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter"))
+console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Uranus"))
+console.log(includes(["apple", "plum", "pear", "orange"], "plum"))
+console.log(includes(["apple", "plum", "pear", "orange"], "kiwi"))
+  
