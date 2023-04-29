@@ -1,3 +1,6 @@
+
+'use strict';
+
 // console.log("hello World!");
 // console.log(2+2);
 // console.log("JavaScript is awesome".length);
@@ -909,26 +912,37 @@
 // findNumber(16, 35, 7)
 
 
-function includes(array, value) {
-    // Change code below this line
-  for (let i = 0; i < array.length; i += 1) {
-    if (array[i] === value) {
-        return Boolean(i);
-    } else {
-        return Boolean(!i);
-    }
-        
-  }
+// function includes(array, value) {
 
 
-    // Change code above this line
-  }
+//   // console.log(array.indexOf(17));
+//     // Change code below this line
+//   for (let i = 0; i <= array.length; i += 1) {
+//     // return array.includes(value);
+//     // console.log(value);
+//     // console.log(array[i].indexOf(1));
+//     // console.log(value);
+
+//     if (array.indexOf(value) !== -1) {
+//       return true;
+//     }  else {
+//       return false;
+//     }
+//       // console.log(i);
+    
+//     // console.log(result);
+//     // return element;
+//   }
+
+//   // console.log(result);
+//     // Change code above this line
+//   }
 
 
-console.log(includes([1, 2, 3, 4, 5], 3))
-console.log(includes([1, 2, 3, 4, 5], 17))
-console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter"))
-console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Uranus"))
-console.log(includes(["apple", "plum", "pear", "orange"], "plum"))
-console.log(includes(["apple", "plum", "pear", "orange"], "kiwi"))
+// console.log(includes([1, 2, 3, 4, 5], 3))
+// console.log(includes([1, 2, 3, 4, 5], 17))
+// console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter"))
+// console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Uranus"))
+// console.log(includes(["apple", "plum", "pear", "orange"], "plum"))
+// console.log(includes(["apple", "plum", "pear", "orange"], "kiwi"))
   
