@@ -946,3 +946,222 @@
 // console.log(includes(["apple", "plum", "pear", "orange"], "plum"))
 // console.log(includes(["apple", "plum", "pear", "orange"], "kiwi"))
   
+
+// const book = {
+//     title: ["The Last Kindom"],
+//     author: "Bernard Cornell",
+//     genres: ["historical", "adventure"],
+//     isPublic: true,
+//     rating: 0.38,
+//     location: {
+//         city: "London",
+//         country: "Great Britain",
+//     },
+//     addBook(bookName) {
+//         this.title.push(bookName);
+//     },
+// }
+
+// console.log(book.title);
+// console.log(book.genres);
+// console.log(book.isPublic);
+// console.log(book.price);
+// console.log(book.location.country);
+// console.log(book.genres.length);
+// console.log(book["title"]);
+// console.log(book["genres"][0]);
+
+// book.rating = 9;
+// book.isPublic = false;
+// book.genres.push("Horror");
+
+// console.log(book);
+
+// book.pageCount = 836;
+// book.originalLanguage = "en";
+
+// console.log(book)
+
+// book.addBook("Noubody knows");
+
+// console.log(book)
+
+
+// for(let key in book) {
+//     // console.log(key);
+//     console.log(book[key]);
+// }
+
+// const keys = Object.keys(book);
+// const values = Object.values(book);
+// const entries = Object.entries(book);
+// // console.log(keys);
+
+// for (const key of keys) {
+// console.log(key);
+// console.log(book[key]);
+// }
+
+// for (const value of values) {
+//     console.log(value);
+// }
+
+// for (const entry of entries) {
+//     console.log(entry);
+// }
+
+
+// const apartment = {
+//     imgUrl: "https://via.placeholder.com/640x480",
+//     descr: "Spacious apartment in the city center",
+//     rating: 4,
+//     price: 2153,
+//     tags: ["premium", "promoted", "top"],
+//   };
+  
+//   // Change code below this line
+//   const aptRating = apartment.rating;
+//   const aptDescr = apartment.descr;
+//   const aptPrice = apartment.price;
+//   const aptTags = apartment.tags;
+//   // Change code above this line
+// console.log(aptRating);
+// console.log(aptDescr);
+// console.log(aptPrice);
+// console.log(aptTags);
+
+
+// const apartment = {
+//     imgUrl: "https://via.placeholder.com/640x480",
+//     descr: "Spacious apartment in the city center",
+//     rating: 4,
+//     price: 2153,
+//     tags: ["premium", "promoted", "top"],
+//     owner: {
+//       name: "Henry",
+//       phone: "982-126-1588",
+//       email: "henry.carter@aptmail.com",
+//     },
+//   };
+  
+//   // Change code below this line
+//   const ownerName = apartment.owner.name;
+//   const ownerPhone = apartment.owner.phone;
+//   const ownerEmail = apartment.owner.email;
+//   const numberOfTags = apartment.tags.length;
+//   const firstTag = apartment.tags[0];
+//   const lastTag = apartment.tags[apartment.tags.length - 1];
+//   // Change code above this line
+
+//   console.log(ownerName);
+//   console.log(ownerPhone);
+//   console.log(ownerEmail);
+//   console.log(numberOfTags);
+//   console.log(firstTag);
+//   console.log(lastTag);
+
+
+// const apartment = {
+//     imgUrl: "https://via.placeholder.com/640x480",
+//     descr: "Spacious apartment in the city center",
+//     rating: 4,
+//     price: 2153,
+//     tags: ["premium", "promoted", "top"],
+//   };
+  
+//   // Change code below this line
+//   const aptRating = apartment["rating"];
+//   const aptDescr = apartment["descr"];
+//   const aptPrice = apartment["price"];
+//   const aptTags = apartment["tags"];
+//   // Change code above this line
+  
+// console.log(aptRating);
+// console.log(aptDescr);
+// console.log(aptPrice);
+// console.log(aptTags);
+
+
+// const apartment = {
+//     imgUrl: "https://via.placeholder.com/640x480",
+//     descr: "Spacious apartment in the city center",
+//     rating: 4,
+//     price: 2153,
+//     tags: ["premium", "promoted", "top"],
+//     owner: {
+//       name: "Henry",
+//       phone: "982-126-1588",
+//       email: "henry.carter@aptmail.com",
+//     },
+//   };
+  
+//   // Change code below this line
+//   apartment.price = 5000;
+//   apartment.rating = 4.7;
+//   apartment.owner.name = "Henry Sibola";
+//   apartment.tags.push("trusted");
+
+//   console.log(apartment.price);
+//   console.log(apartment.rating);
+//   console.log(apartment.owner.name);
+//   console.log(apartment.tags);
+
+
+// const apartment = {
+//     imgUrl: "https://via.placeholder.com/640x480",
+//     descr: "Spacious apartment in the city center",
+//     rating: 4.7,
+//     price: 5000,
+//     tags: ["premium", "promoted", "top", "trusted"],
+//     owner: {
+//       name: "Henry Sibola",
+//       phone: "982-126-1588",
+//       email: "henry.carter@aptmail.com",
+//     },
+//   };
+  
+//   // Change code below this line
+//   apartment.area = 60;
+//   apartment.rooms = 3;
+//   apartment.location = {};
+//   apartment.location.country = "Jamaica";
+//   apartment.location.city = "Kingston";
+
+//   console.log(apartment);
+
+// const name = "Repair Droid";
+// const price = 2500;
+// const image = "https://via.placeholder.com/640x480";
+// const tags = ["on sale", "trending", "best buy"];
+
+// const product = {
+//   // Change code below this line
+//   name,
+//   price,
+//   image,
+//   tags,
+//   // Change code above this line
+// };
+
+// console.log(product);
+
+
+// const emailInputName = "email";
+// const passwordInputName = "password";
+
+// const credentials = {
+//   // Change code below this line
+// [emailInputName]: "henry.carter@aptmail.com",
+// [passwordInputName]: "jqueryismyjam",
+
+//   // Change code above this line
+// };
+
+// console.log(credentials);
+
+const person = {
+    firstName: "John",
+    age: 30,
+  };
+  const { firstName: personName } = person;
+  console.log(personName);
