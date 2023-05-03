@@ -1160,14 +1160,16 @@
 
 // console.log(credentials);
 
-const person = {
-    firstName: "John",
-    age: 30,
-  };
-  const { firstName: personName } = person;
-  console.log(personName);
-=======
-// const apartment = {
+// const person = {
+//     firstName: "John",
+//     age: 30,
+//   };
+//   const { firstName: personName } = person;
+//   console.log(personName);
+// =======
+
+
+// // const apartment = {
 //     descr: "Spacious apartment in the city center",
 //     rating: 4,
 //     price: 2153,
@@ -1247,18 +1249,18 @@ const person = {
 //   console.log(keys);
 //   console.log(values);
   
-function countProps(object) {
-    // Change code below this line
-    let propCount = 0;
+// function countProps(object) {
+//     // Change code below this line
+//     let propCount = 0;
   
-    for (const key in object) {
-      if (object.hasOwnProperty(key)) {
-        propCount += 1;
-      }
-    }
+//     for (const key in object) {
+//       if (object.hasOwnProperty(key)) {
+//         propCount += 1;
+//       }
+//     }
   
-    return propCount;
-    // Change code above this line
-  }
+//     return propCount;
+//     // Change code above this line
+//   }
   
->>>>>>> b1a44869c7c1935efd59865e504460b195d7e949
+// >>>>>>> b1a44869c7c1935efd59865e504460b195d7e949
