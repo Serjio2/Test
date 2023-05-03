@@ -947,7 +947,7 @@
 // console.log(includes(["apple", "plum", "pear", "orange"], "kiwi"))
   
 
-<<<<<<< HEAD
+// <<<<<<< HEAD
 // const book = {
 //     title: ["The Last Kindom"],
 //     author: "Bernard Cornell",
@@ -1266,16 +1266,57 @@
 // >>>>>>> b1a44869c7c1935efd59865e504460b195d7e949
 
 
-function countProps(object) {
-    // Change code below this line
-    let propCount = 0;
+// function countProps(object) {
+//     // Change code below this line
+//     let propCount = 0;
   
-    for (const key in object) {
-      if (object.hasOwnProperty(key)) {
-        propCount += 1;
-      }
-    }
-  
-    return propCount;
-    // Change code above this line
-  }
+//     const objKeys = Object.keys(object);
+//     for ( const key of objKeys) {
+//       // if (objKeyks.hasOwnProperty(key)) {
+//       propCount += 1; 
+//       // }
+//     }
+
+//     console.log(propCount);
+//     return propCount;
+//     // Change code above this line
+    
+//   }
+
+// countProps({})
+// countProps({ name: "Mango", age: 2 })
+// countProps({ mail: "poly@mail.com", isOnline: true, score: 500 })
+
+
+// const apartment = {
+//   descr: "Spacious apartment in the city center",
+//   rating: 4,
+//   price: 2153,
+// };
+// // Change code below this line
+// const keys = Object.keys(apartment);
+// const values = Object.values(apartment);
+
+
+// console.log(keys);
+// console.log(values);
+
+
+// function countTotalSalary(salaries) {
+//   let totalSalary = 0;
+//   // Change code below this line
+
+//     const values = Object.values(salaries);
+
+//     for (const value of values) {
+//       totalSalary += value;
+//     }
+//   console.log(totalSalary);
+
+//   // Change code above this line
+//   return totalSalary;
+// }
+
+// countTotalSalary({})
+// countTotalSalary({ mango: 100, poly: 150, alfred: 80 })
+// countTotalSalary({ kiwi: 200, poly: 50, ajax: 150 })
