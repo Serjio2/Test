@@ -1553,32 +1553,232 @@
 
 
 
+// // Change code below this line
+// function calculateMeanTemperature(forecast) {
+
+//   // const forecast = {
+//   //   today: {
+//   //     low: 10,
+//   //     high: 20
+//   //   },
+//   //   tomorrow: {
+//   //     low: 20,
+//   //     high: 30
+//   //   },
+//   // };
+
+//   const { today: { high: todayHigh, low: todayLow }, tomorrow: { low: tomorrowLow, high: tomorrowHigh }, } = forecast;
+
+//   // const todayLow = forecast.today.low;
+//   // const todayHigh = forecast.today.high;
+//   // const tomorrowLow = forecast.tomorrow.low;
+//   // const tomorrowHigh = forecast.tomorrow.high;
+
+//   // Change code above this line
+//   return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
+// }
+
+// console.log(calculateMeanTemperature({ today: {low: 28, high: 32}, tomorrow: {low: 25, high: 29} }))
+// console.log(calculateMeanTemperature({ today: {low: 37, high: 40}, tomorrow: {low: 33, high: 38} }))
+
+
+// const scores = [89, 64, 42, 17, 93, 51, 26];
+// // Change code below this line
+// const bestScore = Math.max(...scores);
+// const worstScore = Math.min(...scores);
+
+// console.log(bestScore);
+// console.log(worstScore);
+
+
+// const firstGroupScores = [64, 42, 93];
+// const secondGroupScores = [89, 14, 51, 26];
+// const thirdGroupScores = [29, 47, 18, 97, 81];
+// // Change code below this line
+
+// const allScores = [ ...firstGroupScores, ...secondGroupScores, ...thirdGroupScores ];
+// const bestScore = Math.max(...allScores);
+// const worstScore = Math.min(...allScores);
+
+// console.log(allScores);
+// console.log(bestScore);
+// console.log(worstScore);
+
+
+// const defaultSettings = {
+//   theme: "light",
+//   public: true,
+//   withPassword: false,
+//   minNumberOfQuestions: 10,
+//   timePerQuestion: 60,
+// };
+// const overrideSettings = {
+//   public: false,
+//   withPassword: true,
+//   timePerQuestion: 30,
+// };
+// // Change code below this line
+// const finalSettings = { ...defaultSettings, ...overrideSettings };
+
+// console.log(finalSettings);
+
+
+// function makeTask(data) {
+//   const completed = false;
+//   const category = "General";
+//   const priority = "Normal";
+//   // Change code below this line
+
+
+//     const nextTask = { completed, category, priority, ...data };
+//     return nextTask;
+//   // Change code above this line
+// }
+
+// console.log(makeTask({}))
+// console.log(makeTask({ category: "Homemade", priority: "Low", text: "Take out the trash" }) )
+// console.log(makeTask({ category: "Finance", text: "Take interest" }))
+// console.log(makeTask({ priority: "Low", text: "Choose shampoo" }))
+// console.log(makeTask({ text: "Buy bread" }))
+
+
 // Change code below this line
-function calculateMeanTemperature(forecast) {
 
-  // const forecast = {
-  //   today: {
-  //     low: 10,
-  //     high: 20
-  //   },
-  //   tomorrow: {
-  //     low: 20,
-  //     high: 30
-  //   },
-  // };
+// function add(...args) {
+//   let sum = 0;
+  
+//   for (const arg of args) {
+//     sum += arg;
+//   }
+// //   for (let i = 0; i < args.length; i += 1) {
+// //     sum += args[i]; 
+// // };
+// return sum;
+//   // Change code above this line
+// }
 
-  const { today: { high: todayHigh, low: todayLow }, tomorrow: { low: tomorrowLow, high: tomorrowHigh }, } = forecast;
+// console.log(add(15, 27))
+// console.log(add(12, 4, 11, 48))
+// console.log(add(32, 6, 13, 19, 8))
+// console.log(add(74, 11, 62, 46, 12, 36))
 
-  // const todayLow = forecast.today.low;
-  // const todayHigh = forecast.today.high;
-  // const tomorrowLow = forecast.tomorrow.low;
-  // const tomorrowHigh = forecast.tomorrow.high;
 
-  // Change code above this line
-  return (todayLow + todayHigh + tomorrowLow + tomorrowHigh) / 4;
-}
+// // Change code below this line
+// function addOverNum(firstNumber, ...args) {
+//   let total = 0;
 
-console.log(calculateMeanTemperature({ today: {low: 28, high: 32}, tomorrow: {low: 25, high: 29} }))
-console.log(calculateMeanTemperature({ today: {low: 37, high: 40}, tomorrow: {low: 33, high: 38} }))
+//   for (const arg of args) {
+//     if (arg > firstNumber) 
+//     total += arg;
+//   }
+
+//   return total;
+//   // Change code above this line
+// }
+
+// console.log(addOverNum(50, 15, 27))
+// console.log(addOverNum(10, 12, 4, 11, 48, 10, 8))
+// console.log(addOverNum(15, 32, 6, 13, 19, 8))
+// console.log(addOverNum(20, 74, 11, 62, 46, 12, 36))
+
+
+// // Change code below this line
+// function findMatches(firstElements, ...args) {
+//   const matches = []; // Don't change this line
+
+//   for (const arg of args) {
+//     for (const firstElement of firstElements) {
+//           if (arg === firstElement)
+//         matches.push(arg);
+//     }
+//   }
+
+//   return matches;
+// }
+
+
+// console.log(findMatches([1, 2, 3, 4, 5], 1, 8, 2, 7))
+// console.log(findMatches([4, 89, 17, 36, 2], 8, 17, 89, 27, 2))
+// console.log(findMatches([10, 24, 41, 6, 9, 19], 24, 11, 9, 23, 41))
+// console.log(findMatches([63, 11, 8, 29], 4, 7, 16))
+
+
+// const bookShelf = {
+//   // Change code below this line
+//   books: ["The last kingdom", "The guardian of dreams"],
+//   getBooks() {
+//     return "Returning all books";
+//   },
+//   addBook(bookName) {
+//     return `Adding book ${bookName}`;
+//   },
+//   removeBook(bookName) {
+//     return `Deleting book ${bookName}`
+//   },
+//   updateBook(oldName, newName) {
+//     return `Updating book ${oldName} to ${newName}`
+//   },
+//   // Change code above this line
+// };
+
+
+// console.log(bookShelf.getBooks())
+// console.log(bookShelf.addBook("Haze"))
+// console.log(bookShelf.removeBook("Red sunset"))
+// console.log(bookShelf.updateBook("Sands of dune", "Dune"))
+
+
+
+// const bookShelf = {
+//   books: ["The last kingdom", "Haze", "The guardian of dreams"],
+
+//   updateBook(oldName, newName) {
+//     // Change code below this line
+
+//       this.books.splice(this.books.indexOf(oldName), 1, newName);
+
+//       return this.books;
+      
+//     // Change code above this line
+//   },
+// };
+
+// // console.log(bookShelf.updateBook("Haze", "Dungeon chronicles"))
+// // console.log(bookShelf.updateBook("The last kingdom", "Dune"))
+
+
+// const atTheOldToad = {
+//   // Change code below this line
+//     potions: ["Speed potion", "Dragon breath", "Stone skin"],
+//     getPotions() {
+//       return this.potions;
+//     },
+//     addPotion(potionName) {
+//       this.potions.push(potionName);
+//       return this.potions;
+//     },
+//     removePotion(potionName) {
+//       this.potions.splice(this.potions.indexOf(potionName), 1);
+//       return this.potions;
+//     },
+//     updatePotionName(oldName, newName) {
+//       this.potions.splice(this.potions.indexOf(oldName), 1, newName);
+//       return this.potions;
+//     },
+
+//   // Change code above this line
+// };
+
+// console.log(atTheOldToad.getPotions());
+// // console.log(atTheOldToad.addPotion("Invisibility"));
+// // console.log(atTheOldToad.addPotion("Power potion"));
+// // console.log(atTheOldToad.removePotion("Dragon breath"));
+// // console.log(atTheOldToad.removePotion("Speed potion"));
+// console.log(atTheOldToad.updatePotionName("Dragon breath", "Polymorth"));
+// console.log(atTheOldToad.updatePotionName("Stone skin", "Invisibility"));
+
+// // console.log(atTheOldToad.potions);
+
+
 
 
