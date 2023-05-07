@@ -1834,4 +1834,23 @@
 // //   console.log(atTheOldToad.getPotions())
 
 
+// const dogs = {
+//     Fido: "Mutt",
+//     Hunter: "Doberman",
+//     Snoopie: "Beagle"
+//   };
+  
+//   const myDog = "Hunter";
+//   const myBreed = dogs[myDog];
+//   console.log(myBreed);
 
+
+const cats = {
+    name: "Barsik",
+    age: 5,
+    legs: 4,
+};
+
+const catAge = "age";
+const myCatAge = cats[catAge];
+console.log(myCatAge);
