@@ -1910,17 +1910,143 @@
 // console.log(result);
 
 
-function makePizza(pizzaName, callback) {
-    console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
-    callback(pizzaName);
-  }
+// const numbers = [5, 10, 15, 20, 25];
+
+// // Класичний for
+// for (let i = 0; i < numbers.length; i += 1) {
+//   console.log(`Індекс ${i}, значення ${numbers[i]}`);
+// }
+
+// // Метод перебирання forEach
+// numbers.forEach(function (number, index) {
+//   console.log(`Індекс ${index}, значення ${number}`);
+// });
+
+
+// Звичайне оголошення функції
+// const Add = (...rest) => rest;
   
-  makePizza("Royal Grand", function deliverPizza(pizzaName) {
-    console.log(`Delivering pizza ${pizzaName}.`);
-  });
-  // Change code below this line
+
+
+// console.log(Add(5, 10, 15))
+
+// // Те саме стрілочною функцією
+// const arrowAdd = (a, b, c) => {
+//   return a + b + c;
+// };
+
+
+// const numbers = [5, 10, 15, 20, 25];
+
+// // Оголошення функції
+// numbers.forEach(function (number, index) {
+//   // console.log(`Індекс ${index}, значення ${number}`);
+// });
+
+// // Анонімна стрілочна функція
+// numbers.forEach((number, index, numbers) => {
+//   console.log(`Індекс ${index}, значення ${number}, массив ${numbers}`);
+// });
+
+// // Декларативний підхід
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const filteredNumbers = numbers.filter(value => value > 2);
+// console.log(filteredNumbers); // [4, 5]
+
+// function processCall(recipient) {
+//   // Імітуємо доступність абонента випадковим числом
+//   const isRecipientAvailable = Math.random() > 0.5;
+//   // console.log(isRecipientAvailable);
+//   // console.log(Math.random() > 0.5);
+
+//   if (!isRecipientAvailable) {
+//     console.log(`Абонент ${recipient} недоступний, залиште повідомлення.`);
+//     // Логіка активації автовідповідача
+//   } else {
+//     console.log(`З'єднуємо з ${recipient}, очікуйте...`);
+//     // Логіка прийняття дзвінка
+//   }
+// }
+
+// processCall("Манго");
+
+
+// function processCall(recipient, onAvailable, onNotAvailable) {
+//   // Імітуємо доступність абонента випадковим числом
+//   const isRecipientAvailable = Math.random() > 0.5;
+
+//   if (!isRecipientAvailable) {
+//     onNotAvailable(recipient);
+//     return;
+//   }
+
+//   onAvailable(recipient);
+// }
+
+// function takeCall(name) {
+//   console.log(`З'єднуємо з ${name}, очікуйте...`);
+//   // Логіка прийняття дзвінка
+// }
+
+// function activateAnsweringMachine(name) {
+//   console.log(`Абонент ${name} недоступний, залиште повідомлення.`);
+//   // Логіка активації автовідповідача
+// }
+
+// function leaveHoloMessage(name) {
+//   console.log(`Абонент ${name} недоступний, записуємо голограму.`);
+//   // Логіка запису голограми
+// }
+
+// processCall("Манго", takeCall, activateAnsweringMachine);
+// processCall("Полі", takeCall, leaveHoloMessage);
+
+
+
+// function makePizza(pizzaName, callback) {
+//     console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
+//     callback(pizzaName);
+//   }
   
-  makePizza("Ultracheese", function eatPizza(pizzaName) {
-    console.log(`"Eating pizza ${pizzaName}"`)
-  });
+//   makePizza("Royal Grand", function deliverPizza(pizzaName) {
+//     console.log(`Delivering pizza ${pizzaName}.`);
+//   });
+//   // Change code below this line
+  
+//   makePizza("Ultracheese", function eatPizza(pizzaName) {
+//     console.log(`"Eating pizza ${pizzaName}"`)
+//   });
+
+
+// const pizzaPalace = {
+//   pizzas: ["Ultracheese", "Smoked", "Four meats"],
+//   order(pizzaName, onSuccess, onError) {
+//     const isIncludesPizzaName = !this.pizzas.includes(pizzaName);
+//     // console.log(isIncludesPizzaName);
+    
+//     if (isIncludesPizzaName) {
+//       return onError(`There is no pizza with a name ${pizzaName} in the assortment.`
+//       ); 
+//     }
+//     return onSuccess(pizzaName);
+//   },
+// };
+// // Change code above this line
+
+// // Callback for onSuccess
+// function makePizza(pizzaName) {
+//   return `Your order is accepted. Cooking pizza ${pizzaName}.`;
+// }
+
+// // Callback for onError
+// function onOrderError(error) {
+//   return `Error! ${error}`;
+// }
+
+// // Method calls with callbacks
+// console.log(pizzaPalace.order("Smoked", makePizza, onOrderError));
+// console.log(pizzaPalace.order("Four meats", makePizza, onOrderError));
+// console.log(pizzaPalace.order("Big Mike", makePizza, onOrderError));
+// console.log(pizzaPalace.order("Vienna", makePizza, onOrderError));
+// // console.log(onOrderError(5));
   
