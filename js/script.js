@@ -1845,12 +1845,82 @@
 //   console.log(myBreed);
 
 
-const cats = {
-    name: "Barsik",
-    age: 5,
-    legs: 4,
-};
+// const cats = {
+//     name: "Barsik",
+//     age: 5,
+//     legs: 4,
+// };
 
-const catAge = "age";
-const myCatAge = cats[catAge];
-console.log(myCatAge);
+// const catAge = "age";
+// const myCatAge = cats[catAge];
+// console.log(myCatAge);
+
+
+// const myCar = {
+//     make: [],
+//     model: "Nissan",
+//     year: [],
+
+// }
+
+// const myNewCar = "model";
+
+// console.log(myCar[myNewCar])
+
+// const arrayNumbers = function getName() {
+//     // for (const argument of arguments) {
+//         const obj =Array.from(arguments);
+//         // const obj = Object.keys(arguments);
+//     console.log(obj);
+//     // };
+// };
+
+// arrayNumbers(1, 2, 3, 4, 5);
+
+
+// function makePizza() {
+//     return "Your pizza is being prepared, please wait.";
+//   }
+//   // Change code below this line
+  
+//   const result = console.log(makePizza());
+//   const pointer = console.log(makePizza);
+
+
+// function deliverPizza(pizzaName) {
+//     return `Delivering ${pizzaName} pizza.`;
+//   }
+  
+//   function makePizza(pizzaName) {
+//     return `Pizza ${pizzaName} is being prepared, please wait...`;
+//   }
+  
+//   // Chande code below this line
+//   function makeMessage(pizzaName, callback) {
+    
+//     return callback(pizzaName);
+//   }
+  
+//   console.log(makeMessage("Royal Grand", makePizza));
+//   console.log(makeMessage("Ultracheese", deliverPizza));
+// //   console.log(makePizza("Royal Grand"));
+
+// const arr = [2, 4, 6];
+// const result = arr.filter((el) => el * 2);
+// console.log(result);
+
+
+function makePizza(pizzaName, callback) {
+    console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
+    callback(pizzaName);
+  }
+  
+  makePizza("Royal Grand", function deliverPizza(pizzaName) {
+    console.log(`Delivering pizza ${pizzaName}.`);
+  });
+  // Change code below this line
+  
+  makePizza("Ultracheese", function eatPizza(pizzaName) {
+    console.log(`"Eating pizza ${pizzaName}"`)
+  });
+  
