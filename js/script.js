@@ -2432,7 +2432,8 @@ const users = [
     friends: ["Sharron Pace"],
     isActive: false,
     balance: 2811,
-    gender: "male"
+    gender: "male",
+    age: 37
   },
   {
     name: "Sharlene Bush",
@@ -2441,7 +2442,8 @@ const users = [
     friends: ["Briana Decker", "Sharron Pace"],
     isActive: true,
     balance: 3821,
-    gender: "female"
+    gender: "female",
+    age: 34
   },
   {
     name: "Ross Vazquez",
@@ -2450,7 +2452,8 @@ const users = [
     friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
     isActive: false,
     balance: 3793,
-    gender: "male"
+    gender: "male",
+    age: 24
   },
   {
     name: "Elma Head",
@@ -2459,7 +2462,8 @@ const users = [
     friends: ["Goldie Gentry", "Aisha Tran"],
     isActive: true,
     balance: 2278,
-    gender: "female"
+    gender: "female",
+    age: 21
   },
   {
     name: "Carey Barr",
@@ -2468,7 +2472,8 @@ const users = [
     friends: ["Jordan Sampson", "Eddie Strong"],
     isActive: true,
     balance: 3951,
-    gender: "male"
+    gender: "male",
+    age: 27
   },
   {
     name: "Blackburn Dotson",
@@ -2477,7 +2482,8 @@ const users = [
     friends: ["Jacklyn Lucas", "Linda Chapman"],
     isActive: false,
     balance: 1498,
-    gender: "male"
+    gender: "male",
+    age: 38
   },
   {
     name: "Sheree Anthony",
@@ -2486,14 +2492,64 @@ const users = [
     friends: ["Goldie Gentry", "Briana Decker"],
     isActive: true,
     balance: 2764,
-    gender: "female"
+    gender: "female",
+    age: 39
   }
 ]
 
 
 // Change code below this line
-const getUsersWithEyeColor = (users, color) => {
- 
+// const getUsersWithEyeColor = (users, color) => {
+//   const eyesColor = users.filter( (elem) => elem.eyeColor === color)
+//   return eyesColor;
+// };
 
-};
-// Change code above this line
+// const getUsersWithEyeColor = (users, color) => users.filter( (elem) => elem.eyeColor === color);
+// // Change code above this line
+
+// console.table(getUsersWithEyeColor(users, "blue"))
+// console.table(getUsersWithEyeColor(users, "green"))
+// console.table(getUsersWithEyeColor(users, "brown"))
+// console.log(getUsersWithEyeColor(users, "brow"))
+
+
+// // const getUsersWithAge = (users, minAge, maxAge) => {
+// //   const userAge = users.filter( (element) => element.age > minAge && element.age < maxAge );
+// //   return userAge;
+// // };
+
+// const getUsersWithAge = (users, minAge, maxAge) => users.filter( (element) => element.age > minAge && element.age < maxAge );
+
+// console.table(getUsersWithAge(users, 20, 30))
+// console.table(getUsersWithAge(users, 30, 40))
+// console.log(getUsersWithAge(users, 80, 100))
+
+
+// // Change code below this line
+// // const getUsersWithFriend = (users, friendName) => {
+// //    const userFriends = users.filter( (element) => element.friends.includes(friendName) );
+// //    return userFriends;
+// // };
+
+// const getUsersWithFriend = (users, friendName) => users.filter( (element) => element.friends.includes(friendName) )
+// // Change code above this line
+
+// console.table(getUsersWithFriend(users, "Briana Decker"))
+// console.table(getUsersWithFriend(users, "Goldie Gentry"))
+// console.table(getUsersWithFriend(users, "Adrian Cross"))
+
+
+
+// // Change code below this line
+// // const getFriends = (users) => {
+// //    const allFriends = users.flatMap( (element) => element.friends ).filter( (element, index, array) => array.indexOf(element) === index );
+// //    return allFriends;
+// // };
+
+// const getFriends = (users) => users
+//   .flatMap( (element) => element.friends )
+//   .filter( (element, index, array) => array.indexOf(element) === index );
+// // Change code above this line
+
+// // console.log(users);
+// console.log(getFriends(users));
