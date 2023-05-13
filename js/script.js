@@ -2424,78 +2424,78 @@
 // console.log((booksByAuthor));
 
 
-const users = [
-  {
-    name: "Moore Hensley",
-    email: "moorehensley@indexia.com",
-    eyeColor: "blue",
-    friends: ["Sharron Pace"],
-    isActive: false,
-    balance: 2811,
-    gender: "male",
-    age: 37
-  },
-  {
-    name: "Sharlene Bush",
-    email: "sharlenebush@tubesys.com",
-    eyeColor: "blue",
-    friends: ["Briana Decker", "Sharron Pace"],
-    isActive: true,
-    balance: 3821,
-    gender: "female",
-    age: 34
-  },
-  {
-    name: "Ross Vazquez",
-    email: "rossvazquez@xinware.com",
-    eyeColor: "green",
-    friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
-    isActive: false,
-    balance: 3793,
-    gender: "male",
-    age: 24
-  },
-  {
-    name: "Elma Head",
-    email: "elmahead@omatom.com",
-    eyeColor: "green",
-    friends: ["Goldie Gentry", "Aisha Tran"],
-    isActive: true,
-    balance: 2278,
-    gender: "female",
-    age: 21
-  },
-  {
-    name: "Carey Barr",
-    email: "careybarr@nurali.com",
-    eyeColor: "blue",
-    friends: ["Jordan Sampson", "Eddie Strong"],
-    isActive: true,
-    balance: 3951,
-    gender: "male",
-    age: 27
-  },
-  {
-    name: "Blackburn Dotson",
-    email: "blackburndotson@furnigeer.com",
-    eyeColor: "brown",
-    friends: ["Jacklyn Lucas", "Linda Chapman"],
-    isActive: false,
-    balance: 1498,
-    gender: "male",
-    age: 38
-  },
-  {
-    name: "Sheree Anthony",
-    email: "shereeanthony@kog.com",
-    eyeColor: "brown",
-    friends: ["Goldie Gentry", "Briana Decker"],
-    isActive: true,
-    balance: 2764,
-    gender: "female",
-    age: 39
-  }
-]
+// const users = [
+//   {
+//     name: "Moore Hensley",
+//     email: "moorehensley@indexia.com",
+//     eyeColor: "blue",
+//     friends: ["Sharron Pace"],
+//     isActive: false,
+//     balance: 2811,
+//     gender: "male",
+//     age: 37
+//   },
+//   {
+//     name: "Sharlene Bush",
+//     email: "sharlenebush@tubesys.com",
+//     eyeColor: "blue",
+//     friends: ["Briana Decker", "Sharron Pace"],
+//     isActive: true,
+//     balance: 3821,
+//     gender: "female",
+//     age: 34
+//   },
+//   {
+//     name: "Ross Vazquez",
+//     email: "rossvazquez@xinware.com",
+//     eyeColor: "green",
+//     friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+//     isActive: false,
+//     balance: 3793,
+//     gender: "male",
+//     age: 24
+//   },
+//   {
+//     name: "Elma Head",
+//     email: "elmahead@omatom.com",
+//     eyeColor: "green",
+//     friends: ["Goldie Gentry", "Aisha Tran"],
+//     isActive: true,
+//     balance: 2278,
+//     gender: "female",
+//     age: 21
+//   },
+//   {
+//     name: "Carey Barr",
+//     email: "careybarr@nurali.com",
+//     eyeColor: "blue",
+//     friends: ["Jordan Sampson", "Eddie Strong"],
+//     isActive: true,
+//     balance: 3951,
+//     gender: "male",
+//     age: 27
+//   },
+//   {
+//     name: "Blackburn Dotson",
+//     email: "blackburndotson@furnigeer.com",
+//     eyeColor: "brown",
+//     friends: ["Jacklyn Lucas", "Linda Chapman"],
+//     isActive: false,
+//     balance: 1498,
+//     gender: "male",
+//     age: 38
+//   },
+//   {
+//     name: "Sheree Anthony",
+//     email: "shereeanthony@kog.com",
+//     eyeColor: "brown",
+//     friends: ["Goldie Gentry", "Briana Decker"],
+//     isActive: true,
+//     balance: 2764,
+//     gender: "female",
+//     age: 39
+//   },
+// ];
 
 
 // Change code below this line
@@ -2553,3 +2553,397 @@ const users = [
 
 // // console.log(users);
 // console.log(getFriends(users));
+
+
+// // Change code below this line
+// // const getActiveUsers = (users) => {
+// //    const activeUsers = users.filter( (element) => element.isActive );
+// //    return activeUsers;
+// // };
+
+// const getActiveUsers = (users) => users.filter( (element) => element.isActive );
+// // Change code above this line
+
+
+// console.table(getActiveUsers(users));
+
+// const getInactiveUsers = (users) => users.filter( (element) => !element.isActive );
+   
+// console.table(getInactiveUsers(users));
+
+
+// const books = [
+//   {
+//     title: 'The Last Kingdom',
+//     author: 'Bernard Cornwell',
+//     rating: 8.38,
+//   },
+//   {
+//     title: 'Beside Still Waters',
+//     author: 'Robert Sheckley',
+//     rating: 8.51,
+//   },
+//   {
+//     title: 'The Dream of a Ridiculous Man',
+//     author: 'Fyodor Dostoevsky',
+//     rating: 7.75,
+//   },
+//   { title: 'Redder Than Blood', author: 'Tanith Lee', rating: 7.94 },
+// ];
+// const BOOK_TITLE = 'The Dream of a Ridiculous Man';
+// const AUTHOR = 'Robert Sheckley';
+// // Change code below this line
+
+// const bookWithTitle = books.find( (element) => element.title === BOOK_TITLE );
+// const bookByAuthor = books.find( (element) => element.author === AUTHOR );
+
+// console.log(bookWithTitle);
+// console.log(bookByAuthor);
+
+
+
+// // Change code below this line
+// // const getUserWithEmail = (users, email) => {
+// //   const userEmail = users.find( (element) => element.email === email );
+// //   return userEmail;   
+// // };
+
+// const getUserWithEmail = (users, email) => users.find( (element) => element.email === email );
+// // Change code above this line
+
+// console.log(getUserWithEmail(users, "shereeanthony@kog.com"))
+// console.log(getUserWithEmail(users, "elmahead@omatom.com"))
+// console.log(getUserWithEmail(users, "blackburndotson@furnigeer.com"))
+
+
+// const firstArray = [26, 94, 36, 18];
+// const secondArray = [17, 61, 23];
+// const thirdArray = [17, 26, 94, 61, 36, 23, 18];
+// // Change code below this line
+
+// const eachElementInFirstIsEven = firstArray.every( (element) => element % 2 === 0 );
+// const eachElementInFirstIsOdd = firstArray.every( (element) => element % 2 !== 0);
+
+// const eachElementInSecondIsEven = secondArray.every( (element) => element % 2 === 0);
+// const eachElementInSecondIsOdd = secondArray.every( (element) => element % 2 !== 0);
+
+// const eachElementInThirdIsEven = thirdArray.every( (element) => element % 2 === 0);
+// const eachElementInThirdIsOdd = thirdArray.every( (element) => element % 2 !== 0);
+
+// console.log(eachElementInFirstIsEven);
+// console.log(eachElementInFirstIsOdd);
+
+// console.log(eachElementInSecondIsEven);
+// console.log(eachElementInSecondIsOdd);
+
+// console.log(eachElementInThirdIsEven);
+// console.log(eachElementInThirdIsOdd);
+
+
+// // Change code below this line
+// // const isEveryUserActive = (users) => {
+// //    const isUserActive = users.every( (element) => element.isActive);
+// //    return isUserActive;
+// //  };
+
+//  const isEveryUserActive = (users) => users.every( (element) => element.isActive);
+// // Change code above this line
+
+// console.log(isEveryUserActive(users));
+
+// const firstArray = [26, 94, 36, 18];
+// const secondArray = [17, 61, 23];
+// const thirdArray = [17, 26, 94, 61, 36, 23, 18];
+// // Change below this line
+
+// const anyElementInFirstIsEven = firstArray.some( (element) => element % 2 === 0);
+// const anyElementInFirstIsOdd = firstArray.some( (element) => element % 2 !== 0);
+
+// const anyElementInSecondIsEven = secondArray.some( (element) => element % 2 === 0);
+// const anyElementInSecondIsOdd = secondArray.some( (element) => element % 2 !== 0);
+
+// const anyElementInThirdIsEven = thirdArray.some( (element) => element % 2 === 0);
+// const anyElementInThirdIsOdd = thirdArray.some( (element) => element % 2 !== 0);
+
+// console.log(anyElementInFirstIsEven);
+// console.log(anyElementInFirstIsOdd);
+
+// console.log(anyElementInSecondIsEven);
+// console.log(anyElementInSecondIsOdd);
+
+// console.log(anyElementInThirdIsEven);
+// console.log(anyElementInThirdIsOdd);
+
+
+// // Change code below this line
+// // const isAnyUserActive = users => {
+// //    const isUserActive = users.some( (element) => element.isActive);
+// //    return isUserActive;
+// // };
+
+// const isAnyUserActive = users => users.some( (element) => element.isActive);
+
+// // Change code above this line
+
+// console.log(isAnyUserActive(users));
+
+
+
+// const players = {
+//   mango: 1270,
+//   poly: 468,
+//   ajax: 710,
+//   kiwi: 244
+// };
+// const playtimes = Object.values(players); // [1270, 468, 710, 244]
+// // Change code below this line
+
+// // const totalPlayTime = playtimes.reduce( (previousValue, element) => {
+// //   return previousValue + element;
+// // } );
+
+// const totalPlayTime = playtimes.reduce( (previousValue, element) => previousValue + element);
+
+// // Change code above this line
+// const averagePlayTime = totalPlayTime / playtimes.length;
+
+// console.log(playtimes);
+// console.log(totalPlayTime);
+// console.log(averagePlayTime);
+
+
+// const players = [
+//   { name: "Mango", playtime: 1270, gamesPlayed: 4 },
+//   { name: "Poly", playtime: 469, gamesPlayed: 2 },
+//   { name: "Ajax", playtime: 690, gamesPlayed: 3 },
+//   { name: "Kiwi", playtime: 241, gamesPlayed: 1 },
+// ];
+// // Change code below this line
+
+// const totalAveragePlaytimePerGame = players.reduce( (total, player) => {
+//   return total += player.playtime / player.gamesPlayed 
+// }, 0);
+
+
+// console.log(totalAveragePlaytimePerGame);
+
+
+// // Change code below this line
+// // const calculateTotalBalance = users => {
+// //    const totalBallance = users.reduce( (total, user) => {
+// //     return total + user.balance;
+// //    }, 0 );
+// //    return totalBallance;
+// // };
+
+// const calculateTotalBalance = users => users.reduce( (total, user) => total + user.balance, 0 );
+// // Change code above this line
+
+// console.log(calculateTotalBalance(users));
+
+
+// // Change code below this line
+// // const getTotalFriendCount = users => {
+// //    const allFriend = users.reduce( (total, user) => {
+// //     return total += user.friends.length;
+// //    }, 0 );
+// //    return allFriend;
+// // };
+
+// const getTotalFriendCount = users => users.reduce( (total, user) => total += user.friends.length, 0 );
+
+// // Change code above this line
+
+// console.log(getTotalFriendCount(users));
+
+
+// const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
+// const authors = [
+//   "Tanith Lee",
+//   "Bernard Cornwell",
+//   "Robert Sheckley",
+//   "Fyodor Dostoevsky",
+// ];
+// // Change code below this line
+
+// const ascendingReleaseDates = [...releaseDates].sort();
+
+// const alphabeticalAuthors = [...authors].sort();
+
+// console.log(ascendingReleaseDates);
+// console.log(alphabeticalAuthors);
+
+
+// const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
+// // Change code below this line
+
+// const ascendingReleaseDates = [...releaseDates].sort( (a, b) => a - b);
+
+// const descendingReleaseDates = [...releaseDates].sort( (a, b) => b - a);
+
+// console.log(ascendingReleaseDates)
+// console.log(descendingReleaseDates)
+
+
+// const authors = [
+//   "Tanith Lee",
+//   "Bernard Cornwell",
+//   "Robert Sheckley",
+//   "Fyodor Dostoevsky",
+//   "Howard Lovecraft",
+// ];
+// // Change code below this line
+
+// const authorsInAlphabetOrder = [...authors].sort( (a, b) => a.localeCompare(b));
+
+// const authorsInReversedOrder = [...authors].sort( (a, b) => b.localeCompare(a));
+
+// console.log(authorsInAlphabetOrder)
+// console.log(authorsInReversedOrder)
+
+
+// const books = [
+//   {
+//     title: "The Last Kingdom",
+//     author: "Bernard Cornwell",
+//     rating: 8.38,
+//   },
+//   {
+//     title: "Beside Still Waters",
+//     author: "Robert Sheckley",
+//     rating: 8.51,
+//   },
+//   {
+//     title: "The Dream of a Ridiculous Man",
+//     author: "Fyodor Dostoevsky",
+//     rating: 7.75,
+//   },
+//   { title: "Redder Than Blood", author: "Tanith Lee", rating: 7.94 },
+//   { title: "Enemy of God", author: "Bernard Cornwell", rating: 8.67 },
+// ];
+// // Change code below this line
+
+// const sortedByAuthorName = [...books].sort( (a, b) => a.author.localeCompare(b.author));
+
+// const sortedByReversedAuthorName = [...books].sort( (a, b) => b.author.localeCompare(a.author));
+
+// const sortedByAscendingRating = [...books].sort( (a, b) => a.rating - b.rating);
+
+// const sortedByDescentingRating = [...books].sort( (a, b) => b.rating - a.rating);
+
+
+// console.table(sortedByAuthorName)
+// console.table(sortedByReversedAuthorName)
+// console.table(sortedByAscendingRating)
+// console.table(sortedByDescentingRating)
+
+
+// Change code below this line
+// const sortByAscendingBalance = users => {
+//    const sortBalance = users.sort( (a, b) => a.balance - b.balance);
+//    return sortBalance;
+// };
+
+// const sortByAscendingBalance = users => users.sort( (a, b) => a.balance - b.balance);
+
+// // Change code above this line
+
+
+// console.table(users);
+// console.table(sortByAscendingBalance(users));
+
+
+// Change code below this line
+// const sortByDescendingFriendCount = users => {
+//    const sortFriends = users.sort( (a, b) => b.friends.length - a.friends.length);
+//    return sortFriends;
+// };
+
+// const sortByDescendingFriendCount = users => [...users].sort( (a, b) => b.friends.length - a.friends.length);
+
+
+// // Change code above this line
+
+// console.table(users)
+// console.table(sortByDescendingFriendCount(users))
+// console.table(users)
+
+
+const users = [
+  {
+    name: "Moore Hensley",
+    email: "moorehensley@indexia.com",
+    eyeColor: "blue",
+    friends: ["Sharron Pace"],
+    isActive: false,
+    balance: 2811,
+    gender: "male"
+  },
+  {
+    name: "Sharlene Bush",
+    email: "sharlenebush@tubesys.com",
+    eyeColor: "blue",
+    friends: ["Briana Decker", "Sharron Pace"],
+    isActive: true,
+    balance: 3821,
+    gender: "female"
+  },
+  {
+    name: "Ross Vazquez",
+    email: "rossvazquez@xinware.com",
+    eyeColor: "green",
+    friends: ["Marilyn Mcintosh", "Padilla Garrison", "Naomi Buckner"],
+    isActive: false,
+    balance: 3793,
+    gender: "male"
+  },
+  {
+    name: "Elma Head",
+    email: "elmahead@omatom.com",
+    eyeColor: "green",
+    friends: ["Goldie Gentry", "Aisha Tran"],
+    isActive: true,
+    balance: 2278,
+    gender: "female"
+  },
+  {
+    name: "Carey Barr",
+    email: "careybarr@nurali.com",
+    eyeColor: "blue",
+    friends: ["Jordan Sampson", "Eddie Strong"],
+    isActive: true,
+    balance: 3951,
+    gender: "male"
+  },
+  {
+    name: "Blackburn Dotson",
+    email: "blackburndotson@furnigeer.com",
+    eyeColor: "brown",
+    friends: ["Jacklyn Lucas", "Linda Chapman"],
+    isActive: false,
+    balance: 1498,
+    gender: "male"
+  },
+  {
+    name: "Sheree Anthony",
+    email: "shereeanthony@kog.com",
+    eyeColor: "brown",
+    friends: ["Goldie Gentry", "Briana Decker"],
+    isActive: true,
+    balance: 2764,
+    gender: "female"
+  }
+];
+
+
+// Change code below this line
+// const sortByName = users => {
+//   const sortedNames = [...users].sort( (a, b) => a.name.localeCompare(b.name) );
+//   return sortedNames;
+// };
+
+// const sortByName = users => [...users].sort( (a, b) => a.name.localeCompare(b.name) );
+
+// // Change code above this line
+
+// console.log(sortByName(users));
