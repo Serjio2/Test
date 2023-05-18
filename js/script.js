@@ -1,4 +1,3 @@
-
 'use strict';
 
 // console.log("hello World!");
@@ -561,12 +560,10 @@
 // splitMessage('Mango', '');
 // splitMessage('best_for_week', '_');
 
-
 // function calculateEngravingPrice(message, pricePerWord) {
 //   // Change code below this line
 
 //   const result = message.split(" ").length * pricePerWord;
-
 
 //   console.log(result);
 //   return result;
@@ -577,7 +574,6 @@
 // calculateEngravingPrice("JavaScript is in my blood", 20)
 // calculateEngravingPrice("Web-development is creative work", 40)
 // calculateEngravingPrice("Web-development is creative work", 20)
-
 
 // function makeStringFromArray(array, delimiter) {
 //   let string;
@@ -593,12 +589,10 @@
 // makeStringFromArray(["M", "a", "n", "g", "o"], "")
 // makeStringFromArray(["top", "picks", "for", "you"], "_")
 
-
 // function slugify(title) {
 //   // Change code below this line
 
 //     const titleSlug = title.split(" ").join("-").toLowerCase();
-
 
 //   console.log(titleSlug);
 //   return titleSlug;
@@ -610,8 +604,6 @@
 // slugify("Ten secrets of JavaScript")
 // slugify("How to become a JUNIOR developer in TWO WEEKS")
 
-
-
 // let arr = [];
 
 // console.log(fillArray(2, 10));
@@ -621,7 +613,6 @@
 //     return arr.push(i);
 //   }
 // }
-
 
 // const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
 
@@ -633,7 +624,6 @@
 // console.log(firstTwoEls);
 // console.log(nonExtremeEls);
 // console.log(lastThreeEls);
-
 
 // const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
 // const newClients = ['Peach', 'Houston'];
@@ -659,7 +649,6 @@
 // makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4)
 // makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0)
 
-
 // const start = 3;
 // const end = 7;
 
@@ -669,7 +658,7 @@
 
 // function calculateTotal(number) {
 //   // Change code below this line
- 
+
 //   let sum = 0;
 
 //   for (let i = 1; i <= number; i += 1) {
@@ -679,7 +668,7 @@
 
 //   console.log(sum);
 //   return sum;
-  
+
 //    // Change code above this line
 //  }
 
@@ -689,14 +678,12 @@
 // calculateTotal(18)
 // calculateTotal(24)
 
-
 // const fruits = ['apple', 'plum', 'pear', 'orange'];
 
 // for (let i = 0; i < fruits.length; i += 1) { // Change this line
 //   const fruit = fruits[i]; // Change this line
 //   console.log(fruit);
 // }
-
 
 // function calculateTotalPrice(order) {
 //   let total = 0;
@@ -712,7 +699,6 @@
 // calculateTotalPrice([12, 85, 37, 4])
 // calculateTotalPrice([164, 48, 291])
 // calculateTotalPrice([412, 371, 94, 63, 176])
-
 
 // function findLongestWord(string) {
 //   // Change code below this line
@@ -753,7 +739,6 @@
 // createArrayOfNumbers(1, 3)
 // createArrayOfNumbers(14, 17)
 // createArrayOfNumbers(29, 34)
-  
 
 // function filterArray(numbers, value) {
 //     // Change code below this line
@@ -767,7 +752,7 @@
 //     }
 //     console.log(filterNumbers);
 //     return filterNumbers;
- 
+
 //    // Change code above this line
 //  }
 
@@ -777,11 +762,9 @@
 // filterArray([12, 24, 8, 41, 76], 38)
 // filterArray([12, 24, 8, 41, 76], 20)
 
-
-
 // function checkFruit(fruit) {
 //     const fruits = ["apple", "plum", "pear", "orange"];
-  
+
 //     console.log(fruits.includes(fruit)); // Change this line
 //   }
 
@@ -791,11 +774,10 @@
 // checkFruit("Pear")
 // checkFruit("apple")
 
-
 // function getCommonElements(array1, array2) {
 //     // Change code below this line
 //     const newArray = [];
-    
+
 //     for (let i = 0; i <= array2.length; i += 1) {
 //         if (array2.includes(array1[i])) {
 //              newArray.push(array1[i]);
@@ -803,7 +785,7 @@
 //     }
 // //   console.log(newArray);
 //   return newArray;
-  
+
 //    // Change code above this line
 //   }
 
@@ -813,11 +795,10 @@
 // getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40])
 // getCommonElements([1, 2, 3], [10, 20, 30])
 
-
 // function calculateTotalPrice(order) {
 //     let total = 0;
 //     // Change code below this line
-  
+
 //     for (const number of order) {
 //       total += number;
 //     }
@@ -832,12 +813,10 @@
 // calculateTotalPrice([412, 371, 94, 63, 176])
 // calculateTotalPrice([])
 
-
-
 // function filterArray(numbers, value) {
 //     // Change code below this line
 //     const filteredNumbers = [];
-  
+
 //     for (const number of numbers) {
 //         if (number > value) {
 //         filteredNumbers.push(number);
@@ -853,7 +832,6 @@
 // filterArray([1, 2, 3, 4, 5], 5)
 // filterArray([12, 24, 8, 41, 76], 38)
 // filterArray([12, 24, 8, 41, 76], 20)
-  
 
 // function getEvenNumbers(start, end) {
 //     // Change code below this line
@@ -864,7 +842,7 @@
 //                 pairNumbers.push(i);
 //             }
 //         }
- 
+
 //         console.log(pairNumbers);
 //         return pairNumbers;
 //      // Change code above this line
@@ -875,8 +853,6 @@
 // getEvenNumbers(6, 12)
 // getEvenNumbers(8, 8)
 // getEvenNumbers(7, 7)
-
-
 
 // const start = 6;
 // const end = 27;
@@ -890,11 +866,10 @@
 // }
 // console.log(number);
 
-
 // function findNumber(start, end, divisor) {
 //     // Change code below this line
 //     // let number;
-  
+
 //     for (let i = start; i < end; i += 1) {
 //       if (i % divisor === 0) {
 //         return console.log(i);
@@ -911,9 +886,7 @@
 // findNumber(6, 9, 4)
 // findNumber(16, 35, 7)
 
-
 // function includes(array, value) {
-
 
 //   // console.log(array.indexOf(17));
 //     // Change code below this line
@@ -929,7 +902,7 @@
 //       return false;
 //     }
 //       // console.log(i);
-    
+
 //     // console.log(result);
 //     // return element;
 //   }
@@ -938,14 +911,12 @@
 //     // Change code above this line
 //   }
 
-
 // console.log(includes([1, 2, 3, 4, 5], 3))
 // console.log(includes([1, 2, 3, 4, 5], 17))
 // console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Jupiter"))
 // console.log(includes(["Earth", "Mars", "Venus", "Jupiter", "Saturn"], "Uranus"))
 // console.log(includes(["apple", "plum", "pear", "orange"], "plum"))
 // console.log(includes(["apple", "plum", "pear", "orange"], "kiwi"))
-  
 
 // <<<<<<< HEAD
 // const book = {
@@ -987,7 +958,6 @@
 
 // console.log(book)
 
-
 // for(let key in book) {
 //     // console.log(key);
 //     console.log(book[key]);
@@ -1011,7 +981,6 @@
 //     console.log(entry);
 // }
 
-
 // const apartment = {
 //     imgUrl: "https://via.placeholder.com/640x480",
 //     descr: "Spacious apartment in the city center",
@@ -1019,7 +988,7 @@
 //     price: 2153,
 //     tags: ["premium", "promoted", "top"],
 //   };
-  
+
 //   // Change code below this line
 //   const aptRating = apartment.rating;
 //   const aptDescr = apartment.descr;
@@ -1030,7 +999,6 @@
 // console.log(aptDescr);
 // console.log(aptPrice);
 // console.log(aptTags);
-
 
 // const apartment = {
 //     imgUrl: "https://via.placeholder.com/640x480",
@@ -1044,7 +1012,7 @@
 //       email: "henry.carter@aptmail.com",
 //     },
 //   };
-  
+
 //   // Change code below this line
 //   const ownerName = apartment.owner.name;
 //   const ownerPhone = apartment.owner.phone;
@@ -1061,7 +1029,6 @@
 //   console.log(firstTag);
 //   console.log(lastTag);
 
-
 // const apartment = {
 //     imgUrl: "https://via.placeholder.com/640x480",
 //     descr: "Spacious apartment in the city center",
@@ -1069,19 +1036,18 @@
 //     price: 2153,
 //     tags: ["premium", "promoted", "top"],
 //   };
-  
+
 //   // Change code below this line
 //   const aptRating = apartment["rating"];
 //   const aptDescr = apartment["descr"];
 //   const aptPrice = apartment["price"];
 //   const aptTags = apartment["tags"];
 //   // Change code above this line
-  
+
 // console.log(aptRating);
 // console.log(aptDescr);
 // console.log(aptPrice);
 // console.log(aptTags);
-
 
 // const apartment = {
 //     imgUrl: "https://via.placeholder.com/640x480",
@@ -1095,7 +1061,7 @@
 //       email: "henry.carter@aptmail.com",
 //     },
 //   };
-  
+
 //   // Change code below this line
 //   apartment.price = 5000;
 //   apartment.rating = 4.7;
@@ -1106,7 +1072,6 @@
 //   console.log(apartment.rating);
 //   console.log(apartment.owner.name);
 //   console.log(apartment.tags);
-
 
 // const apartment = {
 //     imgUrl: "https://via.placeholder.com/640x480",
@@ -1120,7 +1085,7 @@
 //       email: "henry.carter@aptmail.com",
 //     },
 //   };
-  
+
 //   // Change code below this line
 //   apartment.area = 60;
 //   apartment.rooms = 3;
@@ -1146,7 +1111,6 @@
 
 // console.log(product);
 
-
 // const emailInputName = "email";
 // const passwordInputName = "password";
 
@@ -1167,7 +1131,6 @@
 //   const { firstName: personName } = person;
 //   console.log(personName);
 // =======
-
 
 // // const apartment = {
 //     descr: "Spacious apartment in the city center",
@@ -1209,7 +1172,6 @@
 //  console.log(keys);
 //  console.log(values);
 
-
 // function countProps(object) {
 //     let propCount = 0;
 //     // Change code below this line
@@ -1222,13 +1184,12 @@
 //     console.log(propCount);
 //     // Change code above this line
 //     return propCount;
-    
+
 //   }
 
 // countProps({})
 // countProps({ name: "Mango", age: 2 })
 // countProps({ mail: "poly@mail.com", isOnline: true, score: 500 })
-
 
 // const apartment = {
 //     descr: "Spacious apartment in the city center",
@@ -1248,45 +1209,43 @@
 //   };
 //   console.log(keys);
 //   console.log(values);
-  
+
 // function countProps(object) {
 //     // Change code below this line
 //     let propCount = 0;
-  
+
 //     for (const key in object) {
 //       if (object.hasOwnProperty(key)) {
 //         propCount += 1;
 //       }
 //     }
-  
+
 //     return propCount;
 //     // Change code above this line
 //   }
-  
-// >>>>>>> b1a44869c7c1935efd59865e504460b195d7e949
 
+// >>>>>>> b1a44869c7c1935efd59865e504460b195d7e949
 
 // function countProps(object) {
 //     // Change code below this line
 //     let propCount = 0;
-  
+
 //     const objKeys = Object.keys(object);
 //     for ( const key of objKeys) {
 //       // if (objKeyks.hasOwnProperty(key)) {
-//       propCount += 1; 
+//       propCount += 1;
 //       // }
 //     }
 
 //     console.log(propCount);
 //     return propCount;
 //     // Change code above this line
-    
+
 //   }
 
 // countProps({})
 // countProps({ name: "Mango", age: 2 })
 // countProps({ mail: "poly@mail.com", isOnline: true, score: 500 })
-
 
 // const apartment = {
 //   descr: "Spacious apartment in the city center",
@@ -1297,10 +1256,8 @@
 // const keys = Object.keys(apartment);
 // const values = Object.values(apartment);
 
-
 // console.log(keys);
 // console.log(values);
-
 
 // function countTotalSalary(salaries) {
 //   let totalSalary = 0;
@@ -1327,7 +1284,7 @@
 //     { hex: "#4caf50", rgb: "76,175,80" },
 //     { hex: "#ffeb3b", rgb: "255,235,59" },
 //   ];
-  
+
 //   const hexColors = [];
 //   const rgbColors = [];
 //   // Change code below this line
@@ -1341,14 +1298,13 @@
 //   console.log(hexColors);
 //   console.log(rgbColors);
 
-
 // const products = [
 //     { name: "Radar", price: 1300, quantity: 4 },
 //     { name: "Scanner", price: 2700, quantity: 3 },
 //     { name: "Droid", price: 400, quantity: 7 },
 //     { name: "Grip", price: 1200, quantity: 9 },
 //   ];
-  
+
 //   function getProductPrice(productName) {
 //     // Change code below this line
 //     // productName = null;
@@ -1356,11 +1312,11 @@
 //     if (productName === product.name) {
 //         return product.price;
 //     }
-    
+
 //   }
 //   return null;
-  
-//     // Change code above this 
+
+//     // Change code above this
 //   }
 
 // console.log(getProductPrice("Radar"))
@@ -1370,14 +1326,13 @@
 // console.log(getProductPrice("Droid"))
 // console.log(getProductPrice("Engine"))
 
-
 // const products = [
 //     { name: "Radar", price: 1300, quantity: 4 },
 //     { name: "Scanner", price: 2700, quantity: 3 },
 //     { name: "Droid", price: 400, quantity: 7 },
 //     { name: "Grip", price: 1200, quantity: 9 },
 //   ];
-  
+
 //   function getAllPropValues(propName) {
 //     // Change code below this line
 //     const allPropertyValues = [];
@@ -1387,7 +1342,7 @@
 //             if (product[propName]) {
 //                 allPropertyValues.push(product[propName])
 //             }
-        
+
 //     }
 //     console.log(allPropertyValues);
 //     return allPropertyValues;
@@ -1412,16 +1367,13 @@
 // };
 // console.log(c);
 
-
-
-
 // const products = [
 //     { name: "Radar", price: 1300, quantity: 4 },
 //     { name: "Scanner", price: 2700, quantity: 3 },
 //     { name: "Droid", price: 400, quantity: 7 },
 //     { name: "Grip", price: 1200, quantity: 9 },
 //   ];
-  
+
 //   function calculateTotalPrice(productName) {
 //     // Change code below this line
 //     let totalPrice = 0;
@@ -1430,11 +1382,11 @@
 
 //         if (product.name === productName) {
 //             totalPrice = product.price * product.quantity;
-//         } 
+//         }
 //     }
-        
+
 //     return totalPrice;
-  
+
 //     // Change code above this line
 //   }
 
@@ -1443,7 +1395,6 @@
 // console.log(calculateTotalPrice("Droid"))
 // console.log(calculateTotalPrice("Grip"))
 // console.log(calculateTotalPrice("Scanner"))
-
 
 // const highTemperatures = {
 //   yesterday: 28,
@@ -1462,7 +1413,6 @@
 // const meanTemperature = (yesterday + today + tomorrow) / 3;
 
 // console.log(meanTemperature)
-
 
 // const highTemperatures = {
 //   yesterday: 28,
@@ -1483,7 +1433,6 @@
 
 // console.log(meanTemperature, icon);
 
-
 // const highTemperatures = {
 //   yesterday: 28,
 //   today: 26,
@@ -1500,9 +1449,8 @@
 
 // // Change code above this line
 // const meanTemperature = (highYesterday + highToday + highTomorrow) / 3;
-  
-// console.log(meanTemperature, highIcon);
 
+// console.log(meanTemperature, highIcon);
 
 // const colors = [
 //   { hex: "#f44336", rgb: "244,67,54" },
@@ -1523,7 +1471,6 @@
 
 // console.log(hexColors);
 // console.log(rgbColors);
-
 
 // const forecast = {
 //   today: {
@@ -1550,8 +1497,6 @@
 
 // console.log(highToday, lowToday, todayIcon);
 // console.log(highTomorrow, lowTomorrow, tomorrowIcon);
-
-
 
 // // Change code below this line
 // function calculateMeanTemperature(forecast) {
@@ -1581,7 +1526,6 @@
 // console.log(calculateMeanTemperature({ today: {low: 28, high: 32}, tomorrow: {low: 25, high: 29} }))
 // console.log(calculateMeanTemperature({ today: {low: 37, high: 40}, tomorrow: {low: 33, high: 38} }))
 
-
 // const scores = [89, 64, 42, 17, 93, 51, 26];
 // // Change code below this line
 // const bestScore = Math.max(...scores);
@@ -1589,7 +1533,6 @@
 
 // console.log(bestScore);
 // console.log(worstScore);
-
 
 // const firstGroupScores = [64, 42, 93];
 // const secondGroupScores = [89, 14, 51, 26];
@@ -1603,7 +1546,6 @@
 // console.log(allScores);
 // console.log(bestScore);
 // console.log(worstScore);
-
 
 // const defaultSettings = {
 //   theme: "light",
@@ -1622,13 +1564,11 @@
 
 // console.log(finalSettings);
 
-
 // function makeTask(data) {
 //   const completed = false;
 //   const category = "General";
 //   const priority = "Normal";
 //   // Change code below this line
-
 
 //     const nextTask = { completed, category, priority, ...data };
 //     return nextTask;
@@ -1641,17 +1581,16 @@
 // console.log(makeTask({ priority: "Low", text: "Choose shampoo" }))
 // console.log(makeTask({ text: "Buy bread" }))
 
-
 // Change code below this line
 
 // function add(...args) {
 //   let sum = 0;
-  
+
 //   for (const arg of args) {
 //     sum += arg;
 //   }
 // //   for (let i = 0; i < args.length; i += 1) {
-// //     sum += args[i]; 
+// //     sum += args[i];
 // // };
 // return sum;
 //   // Change code above this line
@@ -1662,13 +1601,12 @@
 // console.log(add(32, 6, 13, 19, 8))
 // console.log(add(74, 11, 62, 46, 12, 36))
 
-
 // // Change code below this line
 // function addOverNum(firstNumber, ...args) {
 //   let total = 0;
 
 //   for (const arg of args) {
-//     if (arg > firstNumber) 
+//     if (arg > firstNumber)
 //     total += arg;
 //   }
 
@@ -1680,7 +1618,6 @@
 // console.log(addOverNum(10, 12, 4, 11, 48, 10, 8))
 // console.log(addOverNum(15, 32, 6, 13, 19, 8))
 // console.log(addOverNum(20, 74, 11, 62, 46, 12, 36))
-
 
 // // Change code below this line
 // function findMatches(firstElements, ...args) {
@@ -1696,12 +1633,10 @@
 //   return matches;
 // }
 
-
 // console.log(findMatches([1, 2, 3, 4, 5], 1, 8, 2, 7))
 // console.log(findMatches([4, 89, 17, 36, 2], 8, 17, 89, 27, 2))
 // console.log(findMatches([10, 24, 41, 6, 9, 19], 24, 11, 9, 23, 41))
 // console.log(findMatches([63, 11, 8, 29], 4, 7, 16))
-
 
 // const bookShelf = {
 //   // Change code below this line
@@ -1721,13 +1656,10 @@
 //   // Change code above this line
 // };
 
-
 // console.log(bookShelf.getBooks())
 // console.log(bookShelf.addBook("Haze"))
 // console.log(bookShelf.removeBook("Red sunset"))
 // console.log(bookShelf.updateBook("Sands of dune", "Dune"))
-
-
 
 // const bookShelf = {
 //   books: ["The last kingdom", "Haze", "The guardian of dreams"],
@@ -1738,14 +1670,13 @@
 //       this.books.splice(this.books.indexOf(oldName), 1, newName);
 
 //       return this.books;
-      
+
 //     // Change code above this line
 //   },
 // };
 
 // // console.log(bookShelf.updateBook("Haze", "Dungeon chronicles"))
 // // console.log(bookShelf.updateBook("The last kingdom", "Dune"))
-
 
 // const atTheOldToad = {
 //   // Change code below this line
@@ -1778,7 +1709,6 @@
 // console.log(atTheOldToad.updatePotionName("Stone skin", "Invisibility"));
 
 // // console.log(atTheOldToad.potions);
-
 
 // const atTheOldToad = {
 //     potions: [
@@ -1820,7 +1750,6 @@
 //     // Change code above this line
 //   };
 
-
 // //   console.log(atTheOldToad.getPotions())
 // //   console.log(atTheOldToad.addPotion({ name: "Invisibility", price: 620 }))
 // //   console.log(atTheOldToad.addPotion({ name: "Power potion", price: 270 }))
@@ -1833,17 +1762,15 @@
 
 // //   console.log(atTheOldToad.getPotions())
 
-
 // const dogs = {
 //     Fido: "Mutt",
 //     Hunter: "Doberman",
 //     Snoopie: "Beagle"
 //   };
-  
+
 //   const myDog = "Hunter";
 //   const myBreed = dogs[myDog];
 //   console.log(myBreed);
-
 
 // const cats = {
 //     name: "Barsik",
@@ -1854,7 +1781,6 @@
 // const catAge = "age";
 // const myCatAge = cats[catAge];
 // console.log(myCatAge);
-
 
 // const myCar = {
 //     make: [],
@@ -1877,30 +1803,28 @@
 
 // arrayNumbers(1, 2, 3, 4, 5);
 
-
 // function makePizza() {
 //     return "Your pizza is being prepared, please wait.";
 //   }
 //   // Change code below this line
-  
+
 //   const result = console.log(makePizza());
 //   const pointer = console.log(makePizza);
-
 
 // function deliverPizza(pizzaName) {
 //     return `Delivering ${pizzaName} pizza.`;
 //   }
-  
+
 //   function makePizza(pizzaName) {
 //     return `Pizza ${pizzaName} is being prepared, please wait...`;
 //   }
-  
+
 //   // Chande code below this line
 //   function makeMessage(pizzaName, callback) {
-    
+
 //     return callback(pizzaName);
 //   }
-  
+
 //   console.log(makeMessage("Royal Grand", makePizza));
 //   console.log(makeMessage("Ultracheese", deliverPizza));
 // //   console.log(makePizza("Royal Grand"));
@@ -1908,7 +1832,6 @@
 // const arr = [2, 4, 6];
 // const result = arr.filter((el) => el * 2);
 // console.log(result);
-
 
 // const numbers = [5, 10, 15, 20, 25];
 
@@ -1922,11 +1845,8 @@
 //   console.log(`Індекс ${index}, значення ${number}`);
 // });
 
-
 // Звичайне оголошення функції
 // const Add = (...rest) => rest;
-  
-
 
 // console.log(Add(5, 10, 15))
 
@@ -1934,7 +1854,6 @@
 // const arrowAdd = (a, b, c) => {
 //   return a + b + c;
 // };
-
 
 // const numbers = [5, 10, 15, 20, 25];
 
@@ -1970,7 +1889,6 @@
 
 // processCall("Манго");
 
-
 // function processCall(recipient, onAvailable, onNotAvailable) {
 //   // Імітуємо доступність абонента випадковим числом
 //   const isRecipientAvailable = Math.random() > 0.5;
@@ -2001,32 +1919,29 @@
 // processCall("Манго", takeCall, activateAnsweringMachine);
 // processCall("Полі", takeCall, leaveHoloMessage);
 
-
-
 // function makePizza(pizzaName, callback) {
 //     console.log(`Pizza ${pizzaName} is being prepared, please wait...`);
 //     callback(pizzaName);
 //   }
-  
+
 //   makePizza("Royal Grand", function deliverPizza(pizzaName) {
 //     console.log(`Delivering pizza ${pizzaName}.`);
 //   });
 //   // Change code below this line
-  
+
 //   makePizza("Ultracheese", function eatPizza(pizzaName) {
 //     console.log(`"Eating pizza ${pizzaName}"`)
 //   });
-
 
 // const pizzaPalace = {
 //   pizzas: ["Ultracheese", "Smoked", "Four meats"],
 //   order(pizzaName, onSuccess, onError) {
 //     const isIncludesPizzaName = !this.pizzas.includes(pizzaName);
 //     // console.log(isIncludesPizzaName);
-    
+
 //     if (isIncludesPizzaName) {
 //       return onError(`There is no pizza with a name ${pizzaName} in the assortment.`
-//       ); 
+//       );
 //     }
 //     return onSuccess(pizzaName);
 //   },
@@ -2050,31 +1965,29 @@
 // console.log(pizzaPalace.order("Vienna", makePizza, onOrderError));
 // // console.log(onOrderError(5));
 
-
 // function calculateTotalPrice(orderedItems) {
 //     let totalPrice = 0;
 //     // Change code below this line
-  
+
 //     // for (let i = 0; i < orderedItems.length; i += 1) {
 //     //   totalPrice += orderedItems[i];
 //     // }
-//     orderedItems.forEach((elem) => { 
+//     orderedItems.forEach((elem) => {
 //         totalPrice += elem;
 //     });
 
 //     // Change code above this line
 //     return totalPrice;
 //   }
-  
+
 // console.log(calculateTotalPrice([12, 85, 37, 4]))
 // console.log(calculateTotalPrice([164, 48, 291]))
 // console.log(calculateTotalPrice([412, 371, 94, 63, 176]))
 
-
 // function filterArray(numbers, value) {
 //     const filteredNumbers = [];
 //     // Change code below this line
-  
+
 //     // for (let i = 0; i < numbers.length; i += 1) {
 //     //   if (numbers[i] > value) {
 //     //     filteredNumbers.push(numbers[i]);
@@ -2086,11 +1999,10 @@
 //             filteredNumbers.push(elem);
 //         }
 //     });
-  
+
 //     // Change code above this line
 //     return filteredNumbers;
 //   }
-
 
 // console.log(filterArray([1, 2, 3, 4, 5], 3)) //повертає [4, 5]
 // console.log(filterArray([1, 2, 3, 4, 5], 4)) //повертає [5]
@@ -2098,11 +2010,10 @@
 // console.log(filterArray([12, 24, 8, 41, 76], 38)) // повертає [41, 76]
 // console.log(filterArray([12, 24, 8, 41, 76], 20)) //повертає [24, 41, 76]
 
-
 // function getCommonElements(firstArray, secondArray) {
 //     const commonElements = [];
 //     // Change code below this line
-  
+
 //     // for (let i = 0; i < firstArray.length; i += 1) {
 //     //   if (secondArray.includes(firstArray[i])) {
 //     //     commonElements.push(firstArray[i]);
@@ -2114,19 +2025,16 @@
 //             commonElements.push(elem);
 //         }
 //     });
-  
+
 //     return commonElements;
 //     // Change code above this line
 //   }
-  
 
 // console.log(getCommonElements([1, 2, 3], [2, 4])) //повертає [2]
 // console.log(getCommonElements([1, 2, 3], [2, 1, 17, 19])) //повертає [1, 2]
 // console.log(getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27])) //повертає [12, 27, 3]
 // console.log(getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40])) //повертає [10, 30, 40]
 // console.log(getCommonElements([1, 2, 3], [10, 20, 30])) //повертає []
-
-
 
 // Change code below this line
 
@@ -2135,37 +2043,31 @@
 //     return quantity * pricePerItem;
 //   }
 
-
 // console.log(calculateTotalPrice(5, 100)) //повертає 500
 // console.log(calculateTotalPrice(8, 60)) //повертає 480
 // console.log(calculateTotalPrice(3, 400)) //повертає 1200
-
 
 // // Change code below this line
 // const calculateTotalPrice = (quantity, pricePerItem) => quantity * pricePerItem;
 //   // Change code above this line
 
-
 // console.log(calculateTotalPrice(5, 100)) //повертає 500
 // console.log(calculateTotalPrice(8, 60)) //повертає 480
 // console.log(calculateTotalPrice(3, 400)) //повертає 1200
 
-
 // // Change code below this line
 // const calculateTotalPrice = (orderedItems) => {
 //     let totalPrice = 0;
-  
+
 //     orderedItems.forEach( (item) =>  totalPrice += item);
 
 //     return totalPrice;
 //   }
 //   // Change code above this line
 
-
 // console.log(calculateTotalPrice([12, 85, 37, 4])) //повертає 138
 // console.log(calculateTotalPrice([164, 48, 291])) //повертає 503
 // console.log(calculateTotalPrice([412, 371, 94, 63, 176])) //повертає 1116
-
 
 // const  changeEven = (numbers, value) => {
 //     // Change code below this line
@@ -2184,19 +2086,16 @@
 //     // Change code above this line
 //   }
 
-
 // console.log(changeEven([1, 2, 3, 4, 5], 10))
 // console.log(changeEven([2, 8, 3, 7, 4, 6], 10))
 // console.log(changeEven([17, 24, 68, 31, 42], 100))
 // console.log(changeEven([44, 13, 81, 92, 36, 54], 100))
-
 
 // const planets = ["Earth", "Mars", "Venus", "Jupiter"];
 // // Change code below this line
 // const planetsLengths = planets.map(planet => planet.length);
 // console.log(planetsLengths);
 // console.log(planets);
-
 
 // const books = [
 //     {
@@ -2218,7 +2117,7 @@
 //     { title: "Enemy of God", author: "Bernard Cornwell", rating: 8.67 },
 //   ];
 //   // Change code below this line
-  
+
 //   const titles = books.map(book => book.title);
 //   console.log(titles);
 
@@ -2240,11 +2139,9 @@
 //     },
 //   ];
 //   // Change code below this line
-  
+
 //   const genres = books.flatMap(book => book.genres);
 //   console.log(genres);
-  
-
 
 // const users = [
 //   {
@@ -2326,7 +2223,6 @@
 //   },
 // ];
 
-
 //   // Change code below this line
 // const getUserNames = (users) => {
 //     const userNames = users.map((user) => user.name);
@@ -2334,7 +2230,6 @@
 //  };
 
 //  console.log(getUserNames(users))
-
 
 // Change code below this line
 // const getUserEmails = (users) => {
@@ -2347,7 +2242,6 @@
 
 // console.log(getUserEmails(users))
 
-
 // const numbers = [17, 24, 82, 61, 36, 18, 47, 52, 73];
 // // Change code below this line
 
@@ -2356,7 +2250,6 @@
 
 // console.log(evenNumbers);
 // console.log(oddNumbers);
-
 
 // const books = [
 //   {
@@ -2384,7 +2277,6 @@
 // console.log(allGenres);
 // console.log(uniqueGenres);
 
-
 // const books = [
 //   {
 //     title: "The Last Kingdom",
@@ -2401,15 +2293,15 @@
 //     author: "Fyodor Dostoevsky",
 //     rating: 7.75,
 //   },
-//   { 
-//     title: "Redder Than Blood", 
-//     author: "Tanith Lee", 
-//     rating: 7.94 
+//   {
+//     title: "Redder Than Blood",
+//     author: "Tanith Lee",
+//     rating: 7.94
 //   },
-//   { 
-//     title: "Enemy of God", 
-//     author: "Bernard Cornwell", 
-//     rating: 8.67 
+//   {
+//     title: "Enemy of God",
+//     author: "Bernard Cornwell",
+//     rating: 8.67
 //   },
 // ];
 
@@ -2422,7 +2314,6 @@
 
 // console.log((topRatedBooks));
 // console.log((booksByAuthor));
-
 
 // const users = [
 //   {
@@ -2497,7 +2388,6 @@
 //   },
 // ];
 
-
 // Change code below this line
 // const getUsersWithEyeColor = (users, color) => {
 //   const eyesColor = users.filter( (elem) => elem.eyeColor === color)
@@ -2512,7 +2402,6 @@
 // console.table(getUsersWithEyeColor(users, "brown"))
 // console.log(getUsersWithEyeColor(users, "brow"))
 
-
 // // const getUsersWithAge = (users, minAge, maxAge) => {
 // //   const userAge = users.filter( (element) => element.age > minAge && element.age < maxAge );
 // //   return userAge;
@@ -2523,7 +2412,6 @@
 // console.table(getUsersWithAge(users, 20, 30))
 // console.table(getUsersWithAge(users, 30, 40))
 // console.log(getUsersWithAge(users, 80, 100))
-
 
 // // Change code below this line
 // // const getUsersWithFriend = (users, friendName) => {
@@ -2537,8 +2425,6 @@
 // console.table(getUsersWithFriend(users, "Briana Decker"))
 // console.table(getUsersWithFriend(users, "Goldie Gentry"))
 // console.table(getUsersWithFriend(users, "Adrian Cross"))
-
-
 
 // // Change code below this line
 // // const getFriends = (users) => {
@@ -2554,7 +2440,6 @@
 // // console.log(users);
 // console.log(getFriends(users));
 
-
 // // Change code below this line
 // // const getActiveUsers = (users) => {
 // //    const activeUsers = users.filter( (element) => element.isActive );
@@ -2564,13 +2449,11 @@
 // const getActiveUsers = (users) => users.filter( (element) => element.isActive );
 // // Change code above this line
 
-
 // console.table(getActiveUsers(users));
 
 // const getInactiveUsers = (users) => users.filter( (element) => !element.isActive );
-   
-// console.table(getInactiveUsers(users));
 
+// console.table(getInactiveUsers(users));
 
 // const books = [
 //   {
@@ -2600,12 +2483,10 @@
 // console.log(bookWithTitle);
 // console.log(bookByAuthor);
 
-
-
 // // Change code below this line
 // // const getUserWithEmail = (users, email) => {
 // //   const userEmail = users.find( (element) => element.email === email );
-// //   return userEmail;   
+// //   return userEmail;
 // // };
 
 // const getUserWithEmail = (users, email) => users.find( (element) => element.email === email );
@@ -2614,7 +2495,6 @@
 // console.log(getUserWithEmail(users, "shereeanthony@kog.com"))
 // console.log(getUserWithEmail(users, "elmahead@omatom.com"))
 // console.log(getUserWithEmail(users, "blackburndotson@furnigeer.com"))
-
 
 // const firstArray = [26, 94, 36, 18];
 // const secondArray = [17, 61, 23];
@@ -2638,7 +2518,6 @@
 
 // console.log(eachElementInThirdIsEven);
 // console.log(eachElementInThirdIsOdd);
-
 
 // // Change code below this line
 // // const isEveryUserActive = (users) => {
@@ -2674,7 +2553,6 @@
 // console.log(anyElementInThirdIsEven);
 // console.log(anyElementInThirdIsOdd);
 
-
 // // Change code below this line
 // // const isAnyUserActive = users => {
 // //    const isUserActive = users.some( (element) => element.isActive);
@@ -2686,8 +2564,6 @@
 // // Change code above this line
 
 // console.log(isAnyUserActive(users));
-
-
 
 // const players = {
 //   mango: 1270,
@@ -2711,7 +2587,6 @@
 // console.log(totalPlayTime);
 // console.log(averagePlayTime);
 
-
 // const players = [
 //   { name: "Mango", playtime: 1270, gamesPlayed: 4 },
 //   { name: "Poly", playtime: 469, gamesPlayed: 2 },
@@ -2721,12 +2596,10 @@
 // // Change code below this line
 
 // const totalAveragePlaytimePerGame = players.reduce( (total, player) => {
-//   return total += player.playtime / player.gamesPlayed 
+//   return total += player.playtime / player.gamesPlayed
 // }, 0);
 
-
 // console.log(totalAveragePlaytimePerGame);
-
 
 // // Change code below this line
 // // const calculateTotalBalance = users => {
@@ -2741,7 +2614,6 @@
 
 // console.log(calculateTotalBalance(users));
 
-
 // // Change code below this line
 // // const getTotalFriendCount = users => {
 // //    const allFriend = users.reduce( (total, user) => {
@@ -2755,7 +2627,6 @@
 // // Change code above this line
 
 // console.log(getTotalFriendCount(users));
-
 
 // const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
 // const authors = [
@@ -2773,7 +2644,6 @@
 // console.log(ascendingReleaseDates);
 // console.log(alphabeticalAuthors);
 
-
 // const releaseDates = [2016, 1967, 2008, 1984, 1973, 2012, 1997];
 // // Change code below this line
 
@@ -2783,7 +2653,6 @@
 
 // console.log(ascendingReleaseDates)
 // console.log(descendingReleaseDates)
-
 
 // const authors = [
 //   "Tanith Lee",
@@ -2800,7 +2669,6 @@
 
 // console.log(authorsInAlphabetOrder)
 // console.log(authorsInReversedOrder)
-
 
 // const books = [
 //   {
@@ -2831,12 +2699,10 @@
 
 // const sortedByDescentingRating = [...books].sort( (a, b) => b.rating - a.rating);
 
-
 // console.table(sortedByAuthorName)
 // console.table(sortedByReversedAuthorName)
 // console.table(sortedByAscendingRating)
 // console.table(sortedByDescentingRating)
-
 
 // Change code below this line
 // const sortByAscendingBalance = users => {
@@ -2848,10 +2714,8 @@
 
 // // Change code above this line
 
-
 // console.table(users);
 // console.table(sortByAscendingBalance(users));
-
 
 // Change code below this line
 // const sortByDescendingFriendCount = users => {
@@ -2861,13 +2725,11 @@
 
 // const sortByDescendingFriendCount = users => [...users].sort( (a, b) => b.friends.length - a.friends.length);
 
-
 // // Change code above this line
 
 // console.table(users)
 // console.table(sortByDescendingFriendCount(users))
 // console.table(users)
-
 
 // const users = [
 //   {
@@ -2935,7 +2797,6 @@
 //   }
 // ];
 
-
 // Change code below this line
 // const sortByName = users => {
 //   const sortedNames = [...users].sort( (a, b) => a.name.localeCompare(b.name) );
@@ -2947,7 +2808,6 @@
 // // Change code above this line
 
 // console.log(sortByName(users));
-
 
 // const books = [
 //   {
@@ -3050,8 +2910,7 @@
 // const getNamesSortedByFriendCount = users => [...users].sort( (a, b) => a.friends.length - b.friends.length).map( (user) => user.name);
 // // Change code above this line
 
-// console.table(getNamesSortedByFriendCount(users)); 
-
+// console.table(getNamesSortedByFriendCount(users));
 
 // // Change code below this line
 // const getSortedFriends = users => users.flatMap( (user) => user.friends).filter( (user, index, array) => array.indexOf(user) === index ).sort( (a, b) => a.localeCompare(b) );
@@ -3075,8 +2934,6 @@
 // console.table(getTotalBalanceByGender(users, "male"));
 // console.table(getTotalBalanceByGender(users, "female"));
 
-
-
 // const pizzaPalace = {
 //   pizzas: ["Supercheese", "Smoked", "Four meats"],
 //   // Change code below this line
@@ -3095,12 +2952,10 @@
 //   // Change code above this line
 // };
 
-
 //   console.log(pizzaPalace.order("Smoked"))
 //   console.log(pizzaPalace.order("Four meats"))
 //   console.log(pizzaPalace.order("Big Mike"))
 //   console.log(pizzaPalace.order("Viennese"))
-
 
 // const customer = {
 //   username: "Mango",
@@ -3133,7 +2988,6 @@
 // console.log(customer.getBalance()); // 19750
 // console.log(customer.getOrders()); // ["Burger", "Pizza", "Salad", "Steak"]
 
-
 // const historyService = {
 //   orders: [
 //     { email: "jacob@hotmail.com", dish: "Burrito" },
@@ -3163,3 +3017,106 @@
 // console.log(historyService.getEmails())
 // console.log(historyService.getOrdersByEmail("solomon@topmail.net"))
 // console.log(historyService.getOrdersByEmail("artemis@coldmail.net"))
+
+// const parent = {
+//     name: "Stacey",
+//     surname: "Moore",
+//     age: 54,
+//     heritage: "Irish",
+//   };
+//   // Change code below this line
+
+//   const child = Object.create(parent);
+
+//   // Change code above this line
+//   child.name = "Jason";
+//   child.age = 27;
+
+//   console.log(parent)
+//   console.log(child)
+//   console.log(parent.hasOwnProperty("surname"))
+//   console.log(parent.hasOwnProperty("heritage"))
+
+//   console.log(child.hasOwnProperty("name"))
+//   console.log(child.name)
+//   console.log(child.hasOwnProperty("age"))
+//   console.log(child.age)
+
+//   console.log(child.hasOwnProperty("surname"))
+//   console.log(child.surname)
+//   console.log(child.hasOwnProperty("heritage"))
+//   console.log(child.heritage)
+//   console.log(parent.isPrototypeOf(child))
+
+// const ancestor = {
+//     name: "Paul",
+//     age: 83,
+//     surname: "Dawson",
+//     heritage: "Irish",
+//   };
+//   // Change code below this line
+
+//   const parent = Object.create(ancestor);
+//   parent.name = "Stacey";
+//   parent.surname = "Moore";
+//   parent.age = 54;
+
+//   const child = Object.create(parent);
+//   child.name = "Jason";
+//   child.age = 27;
+
+//   // Change code above this line
+
+//   console.log(parent)
+//   console.log(child)
+
+// class Car {
+//     constructor (brand, model, price) {
+//         this.brand = brand;
+//         this.model = model;
+//         this.price = price;
+//     };
+
+// };
+
+// console.log(new Car());
+// console.log(new Car("Audi", "Q3", 36000));
+// console.log(new Car("BMW", "X5", 58900));
+// console.log(new Car("Nissan","Murano", 31700));
+
+// class Car {
+//     // Change code below this line
+//     constructor({brand, model, price}) {
+//       this.brand = brand;
+//       this.model = model;
+//       this.price = price;
+//     }
+//     // Change code above this line
+//   }
+
+//   console.log(new Car({ brand: "Audi", model: "Q3", price: 36000 }))
+//   console.log(new Car({ brand: "BMW", model: "X5", price: 58900 }))
+//   console.log(new Car({ brand: "Nissan", model: "Murano", price: 31700 }))
+
+// class Car {
+//   constructor({ brand, model, price }) {
+//     this.brand = brand;
+//     this.model = model;
+//     this.price = price;
+//   }
+//   // Change code below this line
+//   getPrice() {
+//     // this.price = price;
+//     return this.price;
+//   };
+
+//   changePrice(newPrice) {
+//     this.price = newPrice;
+//   };
+
+//   // Change code above this line
+// }
+
+
+// console.log(new Car({ brand: "Nissan", model: "Murano", price: 31700 }))
+// console.log(getPrice())
