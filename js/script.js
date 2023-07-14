@@ -3498,3 +3498,7 @@
 //   console.log(mango.blacklistedEmails); // ["poly@mail.com"]
 //   console.log(mango.isBlacklisted("mango@mail.com")); // false
 //   console.log(mango.isBlacklisted("poly@mail.com")); // true
+
+// fetch('https://jsonplaceholder.typicode.com/users')
+//       .then(response => response.json())
+//       .then(json => console.log(json))
