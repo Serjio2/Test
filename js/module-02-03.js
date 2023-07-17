@@ -8,13 +8,58 @@
 // const res = prompt("Input your name");
 // const str = ["Peter", "John", "Igor", "Sasha"];
 
+// function logins (arr) {
+//     // for (const element of arr) {
+//         if (arr.includes(res)) {
+//             console.log('Access denide');
+//         }
+//     // }
+
+//     return logins;
+// }
+
+// logins(str);
+
+
 // TODO:==============================
 // Напишіть функцію min(a, b), яка повертає менше із чисел a і b.
+
+// function min (a, b) {
+//     if ( a > b ) {
+//         return b;
+//     } else if (a < b ) {
+//         return a;
+//     }
+// }
+// console.log(min( 2,5 ))
+
 
 // TODO:==========================
 // Напишіть функцію min(a, b), яка повертає
 // менше з чисел a, b
 // Потрібно додати перевірку, що функція отримує числа
+
+// function min(a, b) {
+
+//     console.log(isNaN(a));
+//     console.log(isNaN(b));
+
+//     if (isNaN(a) || isNaN(b)) {
+
+//         console.log('Input number');
+//         return;
+
+//     } else if ( a > b ) {
+//         console.log(b);
+//             return b;
+//     } else if (a < b ) {
+//         console.log(a);
+//              return a;
+//          }
+
+// }
+// min( 12, '11' )
+
 
 // TODO:==============================
 // // Що виведе наступний код?
@@ -25,6 +70,13 @@
 // // що у fruits?
 // console.log(fruits.length);
 
+// console.log(fruits)
+// console.log(shoppingCart)
+// console.log(fruits.length)
+
+
+
+
 // TODO:===========================
 // Створіть масив styles з елементами «Джаз» та «Блюз».
 // Додайте «Рок-н-рол» в кінець.
@@ -32,6 +84,14 @@
 // Видалить перший елемент масиву і виведіть його в консоль.
 // Вставте «Реп» і «Реггі» на початок масиву.
 // const styles = ['jazz', 'blues'];
+
+const styles = ['jazz', 'Bluzz'];
+styles.push('Rock-n-Roll');
+
+styles.splice(1, 1, 'Classic')
+
+console.log(styles)
+
 
 // TODO:==============================
 // Напишіть функцію pow(x,n), яка повертає x до ступеня n.
