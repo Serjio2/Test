@@ -85,12 +85,16 @@
 // Вставте «Реп» і «Реггі» на початок масиву.
 // const styles = ['jazz', 'blues'];
 
-const styles = ['jazz', 'Bluzz'];
-styles.push('Rock-n-Roll');
+// const styles = ['jazz', 'Bluzz'];
+// styles.push('Rock-n-Roll');
 
-styles.splice(1, 1, 'Classic')
+// styles.splice(1, 1, 'Classic')
+// const firstDelEl = styles.shift()
+// console.log(firstDelEl);
 
-console.log(styles)
+// styles.unshift('Rap', 'Raggi')
+
+// console.log(styles)
 
 
 // TODO:==============================
@@ -100,9 +104,29 @@ console.log(styles)
 // }
 // console.log(pow(2, 8));
 
+// function pow(x, n) {
+//     return Math.pow(x, n)
+// }
+
+// console.log(pow(2, 8));
+
+
 // TODO:==============================
 // Напишіть функцію яка сумуватиме сусідні числа і пушитиме їх в новий масив
 // const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
+// const newArr = [];
+
+// function sumNumbers (arr) {
+//     for (let i = 0; i <= arr.length - 1; i += 2) {
+    
+//         newArr.push(arr[i] + arr[i + 1])
+
+//     }
+//     return newArr; 
+// }
+
+// console.log(sumNumbers(someArr));
+
 
 // TODO:==========================
 // Напишіть функцію logItems(array), яка приймає
@@ -113,11 +137,33 @@ console.log(styles)
 // ['Джаз', 'Блюз', 'Рок-н-рол', 'Реггі', 'Реп']
 // [{name: 'Джаз', engl: "jazz", number: 1}, {name: 'Блюз', engl: "blues", number: 2}, {name: 'Рок-н-рол', engl: "rock 'n' roll", number: 3}, {name: 'Реггі', engl: "reggae", number: 4}, {name: 'Реп', engl: "rap", number: 5} ]
 
+// function logItems(array) {
+//     for (let i = 0; i <= array.length - 1; i += 1) {
+//         const message = `${i + 1} ${array[i]}`;
+        
+//         console.log(message);
+//     }
+// }
+
+// logItems(['Джаз', 'Блюз', 'Рок-н-рол', 'Реггі', 'Реп']);
+
+
 // TODO:==========================
 // Напиши функцію findSmallerNumber(numbers)
 // яка шукає найменше число в масиві.
 // Додай перевірку що функція отримує масив
 // const numbers = [2, 5, 35, 56, 12, 24, 7, 80, 3];
+
+// function findSmallerNumber(arr) {
+//     // for (let i = 0; i <= arr.length - 1; i += 1) {
+//        const minNum =  Math.min(...arr);
+//        return minNum;
+//     // 
+// }
+
+// console.log(findSmallerNumber(numbers));
+
+
 
 // TODO:==============================
 // Функція formatMessage(message, maxLength)
@@ -128,6 +174,23 @@ console.log(styles)
 // formatMessage("Curabitur ligula sapien", 23); //Повертає 'Curabitur ligula sapien'.
 // formatMessage("Nunc sed turpis a felis in nunc fringilla", 15); //Повертає 'Nunc sed turpis...'.
 // formatMessage("Nunc sed turpis a felis in nunc fringilla", 41); //Повертає 'Nunc sed turpis a felis in nunc fringilla'.
+
+function formatMessage(message, maxLength) {
+
+    const result = message.slice(0, maxLength);
+
+    if (maxLength < message.length-1) {
+        result.padEnd('...')
+    }
+    console.log(result);
+    
+
+}
+
+formatMessage("Curabitur ligula sapien", 16); //Повертає 'Curabitur ligula...'.
+formatMessage("Curabitur ligula sapien", 23); //Повертає 'Curabitur ligula sapien'.
+formatMessage("Nunc sed turpis a felis in nunc fringilla", 15); //Повертає 'Nunc sed turpis...'.
+formatMessage("Nunc sed turpis a felis in nunc fringilla", 41); //Повертає 'Nunc sed turpis a felis in nunc fringilla'.
 
 // TODO:==========================
 // Напишіть функцію caclculateAverage(),
