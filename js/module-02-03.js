@@ -175,22 +175,22 @@
 // formatMessage("Nunc sed turpis a felis in nunc fringilla", 15); //Повертає 'Nunc sed turpis...'.
 // formatMessage("Nunc sed turpis a felis in nunc fringilla", 41); //Повертає 'Nunc sed turpis a felis in nunc fringilla'.
 
-function formatMessage(message, maxLength) {
+// function formatMessage(message, maxLength) {
 
-    const result = message.slice(0, maxLength);
+//     const formMessage = message.slice(0, maxLength);
+//     let result = '';
+//     if (maxLength < message.length-1) {
+//         result = formMessage.padEnd(maxLength+3, '...')
+//     } else {
+//         result = formMessage;
+//     }
+//     return result;
+// }
 
-    if (maxLength < message.length-1) {
-        result.padEnd('...')
-    }
-    console.log(result);
-    
-
-}
-
-formatMessage("Curabitur ligula sapien", 16); //Повертає 'Curabitur ligula...'.
-formatMessage("Curabitur ligula sapien", 23); //Повертає 'Curabitur ligula sapien'.
-formatMessage("Nunc sed turpis a felis in nunc fringilla", 15); //Повертає 'Nunc sed turpis...'.
-formatMessage("Nunc sed turpis a felis in nunc fringilla", 41); //Повертає 'Nunc sed turpis a felis in nunc fringilla'.
+// console.log(formatMessage("Curabitur ligula sapien", 16)); //Повертає 'Curabitur ligula...'.
+// console.log(formatMessage("Curabitur ligula sapien", 23)); //Повертає 'Curabitur ligula sapien'.
+// console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 15)); //Повертає 'Nunc sed turpis...'.
+// console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41)); //Повертає 'Nunc sed turpis a felis in nunc fringilla'.
 
 // TODO:==========================
 // Напишіть функцію caclculateAverage(),
@@ -198,8 +198,20 @@ formatMessage("Nunc sed turpis a felis in nunc fringilla", 41); //Поверта
 // аргументів і повертає їхнє середнє значення.
 // Додати перевірку, що аргументи це числа.
 
-// function calculateAverage() {
-// }
+let result = 0;
+
+function calculateAverage(numbers) {
+    // for (let i = 0; i <= number.length; i += 1) {
+    
+        // result = (number[i] + number[i])/number.length;
+    // }
+    // return result;
+// console.log(result);
+}
+
+console.log(calculateAverage([2, 3, 4, 5]))
+
+
 
 // TODO:==========================
 // Напиши функцію findLongestWord(string)
