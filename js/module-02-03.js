@@ -198,18 +198,18 @@
 // аргументів і повертає їхнє середнє значення.
 // Додати перевірку, що аргументи це числа.
 
-let result = 0;
+// let sum = 0;
 
-function calculateAverage(numbers) {
-    // for (let i = 0; i <= number.length; i += 1) {
-    
-        // result = (number[i] + number[i])/number.length;
-    // }
-    // return result;
-// console.log(result);
-}
+// function calculateAverage(numbers) {
+//      for (let i = 0; i < numbers.length; i += 1) {
+//         sum += numbers[i];
+//     }
+//     // sum / numbers.length;
+//     console.log(sum / numbers.length)
+//     return sum / numbers.length;
+// }
 
-console.log(calculateAverage([2, 3, 4, 5]))
+// calculateAverage([2, 3, 4, 5, 6, 7])
 
 
 
@@ -220,22 +220,90 @@ console.log(calculateAverage([2, 3, 4, 5]))
 // пробілом (параметр string)
 // і повертає найдовше слово у цьому рядку
 
+
+// function findLongestWord(string) {
+
+//     const strArr = string.split(' ');
+//     let result = '';
+    
+//     for (let i = 0; i <= strArr.length - 1; i += 1) {
+//         if (result.length < strArr[i].length) {
+//             result = strArr[i];
+//         }
+//     }
+//     console.log(result)
+// }
+
+// findLongestWord("Nunc sed turpis a felis in nunc fringilla")
+
+
 // TODO:==========================
 // Напишіть функції для роботи з масивом
 // add(name) додає курс до кінця колекції
 // removeCourse(name) видаляє курс із колекції
 // updateCourse(oldName, newName) змінює ім'я на нове
 
+
+// const course = [];
+
+// function add(name) {
+//     course.push(name);
+//     console.log(course);
+//     // return course;
+// }
+
+// function removeCourse(name) {
+//     const indexEl = course.indexOf(name);
+//     course.splice(indexEl, 1)
+//     console.log(course);
+// }
+
+// function updateCourse(oldName,newName) {
+//     const indexEl = course.indexOf(oldName);
+//     course.splice(indexEl, 1, newName)
+//     console.log(course);
+// }
+
+// add('Bingo')
+// add('Wonderful')
+// add('Bond')
+// add('Full')
+// removeCourse('Bond')
+// updateCourse('Wonderful', 'BadBoy')
+
+
+
 // TODO:==========================
 // Напишіть код для пошуку пароля в масиві
 // Через include і тернарний оператор
+
+
 // const passwords = ['ajax123', 'polly456', 'mango789', 'semiBold'];
 // const password = 'semiBold';
+
+// const findPassword = passwords.includes(password) ? 'Cool' : 'Bad';
+// console.log(findPassword);
+
 
 // TODO:==========================
 // Напишіть скрипт, який замінює регістр кожного символу
 // у рядку на протилежний
 // Наприклад 'JavaScript' повинен повернути 'jAVAsCRIPT'
+
+const str = 'JavaScript';
+const newStr = str.split('').map( (element) => {
+    if (element === element.toUpperCase()) {
+        element.toLowerCase();
+        // console.log(element.toLowerCase());
+    } else if (element === element.toLowerCase()) {
+        element.toUpperCase();
+        return newStr;
+    }
+} 
+);
+console.log(newStr);
+
+
 
 // TODO:============================
 // Напишіть функцію unique(arr), яка повертає масив, який
