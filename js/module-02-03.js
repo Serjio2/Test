@@ -290,19 +290,18 @@
 // у рядку на протилежний
 // Наприклад 'JavaScript' повинен повернути 'jAVAsCRIPT'
 
-const str = 'JavaScript';
-const newStr = str.split('').map( (element) => {
-    if (element === element.toUpperCase()) {
-        element.toLowerCase();
-        // console.log(element.toLowerCase());
-    } else if (element === element.toLowerCase()) {
-        element.toUpperCase();
-        return newStr;
-    }
-} 
-);
-console.log(newStr);
+// const str = 'JavaScript';
+// const newStr = str.split('').map( (element) => {
 
+//     if (element === element.toUpperCase()) {
+//         element = element.toLowerCase();
+//     } else {
+//         element = element.toUpperCase();
+//     }
+//     return element;
+//     });
+
+//     console.log(newStr.join(''));
 
 
 // TODO:============================
@@ -311,10 +310,15 @@ console.log(newStr);
 // const words = ["HTML","CSS", "JS", "React", "JS", "CSS", "JS",
 // "Node.js", "JS", "React", "CSS", "React", "HTML", "Node.js"];
 
+
 // TODO:==============================
 // Привести масив до одного рівня
-// const arr = [
-// [23, 11, ["hello", "world", "Vasya"]]
+
+// const arr = [23, 11, ["hello", "world", "Vasya"]]
+
+// console.log(arr.flat())
+
+
 
 // TODO:==============================
 //  * Працюємо з колекцією товарів у кошику:
@@ -326,9 +330,56 @@ console.log(newStr);
 //  * - increaseQuantity(productName)
 //  * - decreaseQuantity(productName)
 //  *
-//   { name: '🍎', price: 50 }
-//   { name: '🍇', price: 70 }
-//   { name: '🍋', price: 60 }
-//   { name: '🍓', price: 110 }
 
-// const cart = {};
+
+// let total = 0;
+
+// const cart = {
+
+// items: [{ name: '🍎', price: 50 },
+//          { name: '🍇', price: 70 },
+//         { name: '🍋', price: 60 },
+//         { name: '🍓', price: 110 }],
+
+// getItems() {
+// // console.log(this.items.name);
+// return this.items;
+// },
+
+// add(product) {
+//     this.items.push(product);
+//     return this.items;
+// },
+
+// remove(productName) {
+//     for (const item of this.items) {
+//     const indexProdact = this.items.indexOf(productName);
+//     this.items.splice(indexProdact, 1);
+//     return this.items;
+//     }
+// },
+
+// clear() {
+//     console.clear();
+// },
+
+// countTotalPrice() {
+//     for (const item of this.items) {
+//         // console.log(item.price)
+//         total += item.price;
+//     }
+//     return total;
+// }
+
+
+// };
+
+// console.log(cart.getItems());
+// console.log(cart.add('apple'));
+// console.log(cart.add('kivi'));
+// console.log(cart.add('banana'));
+// console.log(cart.remove('kivi'));
+// console.log(cart.remove('apple'));
+// console.log(cart.remove('banana'));
+// // cart.clear();
+// console.log(cart.countTotalPrice());
