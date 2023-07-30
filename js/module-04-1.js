@@ -12,6 +12,24 @@
 // виведіть в консоль повідомлення "Ви не ввели імʼя"
 //++++++++++++++++++ Рішення ++++++++++++++++++
 
+
+// const promptName = prompt('Enter your name');
+
+// function letMeSeeYourName(name, callback) {
+
+//   if (name) {
+//     callback(name);
+//   } else {
+//     console.log('Input name...')
+//   }
+// }
+
+// function greet(name) {
+//   console.log(`Hi dear ${name}`);
+// }
+
+// letMeSeeYourName(promptName, greet);
+
 /**
   |============================
   | Завдання 2
@@ -26,6 +44,22 @@
 // 2. showProduct(product) - коллбек, який приймає об'єкт
 // продукту і виводить інформацію у консоль
 //++++++++++++++++++ Рішення ++++++++++++++++++++++++
+
+// function makeProduct(name, price, callback) {
+
+//   const product = {
+//   id: new Date().getTime(),
+//   name: name,
+//   price: price,
+// }
+// callback(product);
+// }
+
+// function showProduct(product) {
+//   console.log(product);
+// }
+
+// makeProduct('Ball', 100, showProduct);
 
 /**
   |============================
@@ -45,6 +79,24 @@
 // makeDish("Poly", "muffins");
 //++++++++++++++++++ Рішення ++++++++++++++++++
 
+function makeShef(shefName) {
+
+ return function (dish) {
+  console.log(`${shefName} is cooking ${dish}`);
+  };
+};
+
+const cookResult = makeShef('Mango');
+
+
+    // makeShef("Mango");
+    cookResult("apple pie");
+    cookResult("muffins");
+  // makeDish("Poly", "muffins");
+
+  makeShef("Polly");
+  cookResult("apple pie");
+    cookResult("muffins");
 /**
   |============================
   | Завдання 4
